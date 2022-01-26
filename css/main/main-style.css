@@ -4,7 +4,7 @@
 	grid-auto-rows: 421px!important;
 	grid-template-areas: 
 	"main__image main__text main__text";
-	margin-top: 75px;
+	margin-top: 60px;
 }
 
 .main__image{
@@ -33,4 +33,12 @@
 	padding: 35px 20px 20px;
 	text-align: justify;
 	text-justify: inter-word;
+}
+
+.fa-size{
+	margin-top: 2%;
+	margin-left: 3%;
+	font-size: 35px;
+	text-decoration: none;
+	color: white;
 }
