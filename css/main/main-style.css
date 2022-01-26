@@ -1,0 +1,35 @@
+.main-container{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-auto-rows: 421px!important;
+	grid-template-areas: 
+	"main__image main__text main__text";
+	margin-top: 75px;
+}
+
+.main__image{
+	width: 100%;
+	grid-area: main__image;
+}
+
+.main__text{
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+
+	background: #FF914D;
+	color: white;
+	letter-spacing: 1.2px;
+
+	grid-area: main__text;
+}
+
+.main__text__h1{
+	font-family: 'Kaushan Script', cursive;
+
+}
+
+.main__text__p{
+	padding: 35px 20px 20px;
+	text-align: justify;
+	text-justify: inter-word;
+}
