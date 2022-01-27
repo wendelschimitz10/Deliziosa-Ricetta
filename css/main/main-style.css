@@ -1,4 +1,8 @@
-.main-container{
+*{
+	font-family: 'Comfortaa', cursive;
+}
+
+.section_container{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-auto-rows: 421px!important;
