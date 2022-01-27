@@ -8,13 +8,13 @@
 
 .form-control{
 	border-color: #FF914D!important;
-}
-
-.form-control{
 	border-radius: 10px!important;
+	font-size: 12px!important;
+	width: 300px!important;
 }
 
-.btn{
+
+.btn__search{
 	background-color: #FF914D!important;
 	color: #FFF!important;
 	border-radius: 10px!important;
@@ -22,18 +22,20 @@
 	transition: ease-out 1s!important;
 	font-size: 0.7rem!important;
 	border: none!important;
+	margin-right: 15%!important;
 }
 
 
-.btn:hover{
+.btn__search:hover{
 	border: none;
 	box-shadow: inset 300px 0 0 0 #cd5e19;
 	font-size: 15px!important;
 	cursor: pointer;
+
 }
 
 .figure__img{
-	width: 240px!important;
+	width: 235px!important;
 	margin-top: -25px!important;
 	grid-area: figure;
 }
