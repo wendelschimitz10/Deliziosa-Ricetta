@@ -1,175 +1,193 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Deliziosa Ricetta</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Deliziosa Ricetta</title>
 
-	<link rel="stylesheet" type="text/css" href="css/header/header-style.css">
-	<link rel="stylesheet" type="text/css" href="css/main/main-style.css">
+    <!-- LINKS DE REFERÊNCIA -->
 
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- links de css -->
+    <link rel="stylesheet" type="text/css" href="css/header/header-style.css">
+    <link rel="stylesheet" type="text/css" href="css/main/main-style.css">
 
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+    <!-- link para conectar ao bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- links para conectar as fontes e icones do google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+
+    <!-- link para conectar a animações-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
 
 </head>
+
 <body>
-	<header class="header-container"> 
-		
-		<figure class="figure">
-			<img class="figure__img img-fluid" src="assets/img/logo.png">
-		</figure>
+    <header class="header-container">
 
-		<section>
-			<nav class="navbar navbar-expand-lg navbar-light bg-light">
-				<div class="container-fluid">
+        <figure class="figure">
+            <img class="figure__img img-fluid" src="assets/img/logo.png">
+        </figure>
 
-					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <section>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>
 
-					<div class="collapse navbar-collapse" id="navbarSupportedContent">
-						<ul class="navbar-nav me-auto mb-2 mb-lg-0 ps-3">
-							<li class="nav-item">
-								<a class="nav-link active" aria-current="page" href="#">Inicio <i class="fas fa-home"></i></a>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ps-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Inicio <i class="fas fa-home"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Receitas salgadas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Receitas doces</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Bebidas</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#">Nos dê um feedback (^-^)</a>
+                            </li>
+                        </ul>
 
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">Receitas salgadas</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">Receitas doces</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">Bebidas</a>
-							</li>
-						</ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="O que está procurando?" aria-label="Search">
+                            <button class="btn btn__search" type="submit"><i class="fas fa-search"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </section>
+    </header>
 
-						<form class="d-flex">
-							<input class="form-control me-2" type="search" placeholder="O que está procurando?" aria-label="Search">
-							<button class="btn btn__search" type="submit"><i class="fas fa-search"></i></button>
-						</form>
-					</div>
-				</div>
-			</nav>
-		</section>
-	</header>
+    <main>
+        <section class="section_container">
+            <div>
+                <img class="main__image" src="assets/img/pizzacapresebraz.jpg">
+            </div>
+            <div class="main__text">
+                <h1 class="main__text__h1 text-center animate__animated animate__pulse">Receitas Italianas</h1>
+                <p class="m-s-4 main__text__p">A culinária da Itália faz sucesso ao redor do mundo todo e isso não é à toa. Além de deliciosas pizzas, lasanhas e macarrões, é bem fácil encontrar outras boas receitas de comidas italianas. Você pode escolher desde o petisco, entrada,
+                    prato principal e até mesmo sobremesa. As opções são para todos os gostos.<br>
+                    <br>
+                    <br> Autor: Deliziosa Ricetta
 
-	<main>
-		<section class="section_container">
-			<div >
-				<img class="main__image" src="assets/img/pizzacapresebraz.jpg">
-			</div>
-			<div class="main__text">
-				<h1 class="main__text__h1 text-center animate__animated animate__pulse">Receitas Italianas</h1>
-				<p class="m-s-4 main__text__p">A culinária da Itália faz sucesso ao redor do mundo todo e isso não é à toa. Além de deliciosas pizzas, lasanhas e macarrões, é bem fácil encontrar outras boas receitas de comidas italianas. Você pode escolher desde o petisco, entrada, prato principal e até mesmo sobremesa. As opções são para todos os gostos.<br>
-					<br>
-					<br>
-					Autor: Deliziosa Ricetta
+                </p>
+                <a href="https://www.instagram.com/wendel.mkt/"><i class="fab fa-instagram fa-size"></i></a>
+                <a href="https://github.com/wendelschimitz10/"><i class="fab fa-github fa-size"></i></a>
+                <a href="https://www.facebook.com/wendel.shimitz.3/"><i class="fab fa-facebook-square fa-size"></i></a>
+            </div>
+        </section>
 
-				</p>
-				<a href="https://www.instagram.com/wendel.mkt/"><i class="fab fa-instagram fa-size"></i></a>
-				<a href="https://github.com/wendelschimitz10/"><i class="fab fa-github fa-size"></i></a>
-				<a href="https://www.facebook.com/wendel.shimitz.3/"><i class="fab fa-facebook-square fa-size"></i></a>
-			</div>
-		</section>
+        <h1 class="text-center mt-5">Destaques</h1>
+        <section class="highlights_container">
 
-		<h1 class="text-center mt-5">Destaques</h1>
-		<section class="highlights_container">
+            <div class="card highlights_card1" style="width: 18rem;">
+                <a href="#" class="highlights__link">
+                    <img src="assets/img/lasanha4queijos.jpg" class="card-img-top" alt="Receita de lasanha quatro queijos">
+                    <div class="card-body">
+                        <h5 class="card-title">Lasanha quatro queijos</h5>
+                        <p class="card-text">Lasanha é um prato perfeito para reunir a família, pois é quase unânime a paixão por essa delícia, especialmente quando o recheio é bem cremoso e reúne os sabores intensos dos queijos!</p>
+                    </div>
+                </a>
+            </div>
 
-			<div class="card highlights_card1" style="width: 18rem;">
-				<a href="#" class="highlights__link">
-				<img src="assets/img/lasanha4queijos.jpg" class="card-img-top" alt="Receita de lasanha quatro queijos">
-				<div class="card-body">
-					<h5 class="card-title">Lasanha quatro queijos</h5>
-					<p class="card-text">Lasanha é um prato perfeito para reunir a família, pois é quase unânime a paixão por essa delícia, especialmente quando o recheio é bem cremoso e reúne os sabores intensos dos queijos!</p>
-				</div>
-				</a>
-			</div>
+            <div class="card highlights_card2" style="width: 18rem;">
+                <a href="#" class="highlights__link">
+                    <img src="assets/img/zeppole.jpg" class="card-img-top" alt="Receita de zeppole">
+                    <div class="card-body">
+                        <h5 class="card-title">Zeppole</h5>
+                        <p class="card-text">Os zeppole é um tipo de rosquinha tradicional no sul da Itália. A massa é recheada com creme de confeiteiro e pode ser tanto frita quanto assada. </p>
+                    </div>
+                </a>
+            </div>
 
-			<div class="card highlights_card2" style="width: 18rem;">
-				<a href="#" class="highlights__link">
-				<img src="assets/img/zeppole.jpg" class="card-img-top" alt="Receita de zeppole">
-				<div class="card-body">
-					<h5 class="card-title">Zeppole</h5>
-					<p class="card-text">Os zeppole é um tipo de rosquinha tradicional no sul da Itália. A massa é recheada com creme de confeiteiro e pode ser tanto frita quanto assada. </p>
-				</div>
-				</a>
-			</div>
+            <div class="card highlights_card3" style="width: 18rem;">
+                <a href="#" class="highlights__link">
+                    <img src="assets/img/struffoli.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Cartellate</h5>
+                        <p class="card-text">O Cartellate é um dos símbolos católicos na região de Puglia. São biscoitos de mel e canela produzidos em grande quantidade pelas famílias</p>
+                    </div>
+                </a>
+            </div>
 
-			<div class="card highlights_card3" style="width: 18rem;">
-				<a href="#" class="highlights__link">
-					<img src="assets/img/struffoli.jpg" class="card-img-top" alt="...">
-					<div class="card-body">
-						<h5 class="card-title">Struffoli</h5>
-						<p class="card-text">Os gregos são os donos da receita levada para a Itália e popularizada como doce típico do país. A receita leva algumas variações conforme a região onde é preparada, mas a base é praticamente a mesma: farinha, açúcar, fermento, sal, ovo, manteiga e rum, conhaque ou licor.</p>
-					</div>
-				</a>
-			</div>
+            <div class="card highlights_card4" style="width: 18rem;">
+                <a href="#" class="highlights__link">
+                    <img src="assets/img/pizzacapresebraz.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Pizza Caprese</h5>
+                        <p class="card-text">Nesta receita de pizza caprese caseira preparamos a massa no liquidificador e a cobertura traz o saboroso pesto de azeitonas pretas, tomate e muçarela de búfala. Essa é uma maneira fácil de preparar essa pizza super clássica e
+                            que agrada a toda a família!</p>
+                    </div>
+                </a>
+            </div>
 
-			<div class="card highlights_card4" style="width: 18rem;">
-				<a href="#" class="highlights__link">
-					<img src="assets/img/pizzacapresebraz.jpg" class="card-img-top" alt="...">
-					<div class="card-body">
-						<h5 class="card-title">Espaguete Vôngole</h5>
-						<p class="card-text">Nesta receita de pizza caprese caseira preparamos a massa no liquidificador e a cobertura traz o saboroso pesto de azeitonas pretas, tomate e muçarela de búfala. Essa é uma maneira fácil de preparar essa pizza super clássica e que agrada a toda a família!</p>
-					</div>
-				</a>
-			</div>
+            <div class="card highlights_card5" style="width: 18rem;">
+                <a href="#" class="highlights__link">
+                    <img src="assets/img/tiramasu.jpg" class="card-img-top" alt="Receita de Tiramasu">
+                    <div class="card-body">
+                        <h5 class="card-title">Tiramisu italiano</h5>
+                        <p class="card-text">Além das massas, a culinária italiana também é conhecida por seus doces. Entre pizzas e macarrão, o tiramisù é uma das estrelas da mesa.
+                        </p>
+                    </div>
+                </a>
+            </div>
 
-			<div class="card highlights_card5" style="width: 18rem;">
-				<a href="#" class="highlights__link">
-					<img src="assets/img/lasanha4queijos.jpg" class="card-img-top" alt="Receita de lasanha quatro queijos">
-					<div class="card-body">
-						<h5 class="card-title">Lasanha quatro queijos</h5>
-						<p class="card-text">Lasanha é um prato perfeito para reunir a família, pois é quase unânime a paixão por essa delícia, especialmente quando o recheio é bem cremoso e reúne os sabores intensos dos queijos!</p>
-					</div>
-				</a>
-			</div>
+            <div class="card highlights_card6" style="width: 18rem;">
+                <a href="#" class="highlights__link">
+                    <img src="assets/img/cartellate.jpg" class="card-img-top" alt="Receita de Cartellate">
+                    <div class="card-body">
+                        <h5 class="card-title">Cartellate</h5>
+                        <p class="card-text">Muitos países tem doces especialmente confeccionados para festas, como o Natal. Este é o caso do cartellate, um dos símbolos católicos na região de Puglia. São biscoitos de mel e canela produzidos em grande quantidade pelas famílias
+                            para que, durante a festa, sejam consumidos. A forma do cartellate representa a coroa de espinhos imposta a Jesus no momento da crucificação.</p>
+                    </div>
+                </a>
+            </div>
 
-			<div class="card highlights_card6" style="width: 18rem;">
-				<a href="#" class="highlights__link">
-					<img src="assets/img/zeppole.jpg" class="card-img-top" alt="Receita de zeppole">
-					<div class="card-body">
-						<h5 class="card-title">Zeppole</h5>
-						<p class="card-text">Os zeppole é um tipo de rosquinha tradicional no sul da Itália. A massa é recheada com creme de confeiteiro e pode ser tanto frita quanto assada. </p>
-					</div>
-				</a>
-			</div>
+            <div class="card highlights_card7" style="width: 18rem;">
+                <a href="#" class="highlights__link">
+                    <img src="assets/img/macarrao.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Macarrão conchiglione</h5>
+                        <p class="card-text">O macarrão conchiglione é uma massa em formato de concha feita especialmente para ser recheada. Além de ser muito fácil de fazer, ela oferece muitas possibilidades de recheio e é uma ótima opção para sair da rotina - inclusive dá pra usar a criatividade e aproveitar os ingredientes que você tiver na geladeira!</p>
+                    </div>
+                </a>
+            </div>
 
-			<div class="card highlights_card7" style="width: 18rem;">
-				<a href="#" class="highlights__link">
-					<img src="assets/img/struffoli.jpg" class="card-img-top" alt="...">
-					<div class="card-body">
-						<h5 class="card-title">Struffoli</h5>
-						<p class="card-text">Os gregos são os donos da receita levada para a Itália e popularizada como doce típico do país. A receita leva algumas variações conforme a região onde é preparada, mas a base é praticamente a mesma: farinha, açúcar, fermento, sal, ovo, manteiga e rum, conhaque ou licor.</p>
-					</div>
-				</a>
-			</div>
+            <div class="card highlights_card8" style="width: 18rem;">
+                <a href="#" class="highlights__link">
+                    <img src="assets/img/pastaefagioli.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Pasta e fagioli</h5>
+                        <p class="card-text">A pasta e fagioli é uma sopa típica italiana que tem como ingredientes principais a massa e o feijão. Ela era uma receita comum entre as pessoas mais pobres, não tem exatamente uma receita original, você usa o que tem disponível de legumes, junto com a massa e o feijão, e muito amor! </p>
+                    </div>
+                </a>
+            </div>
 
-			<div class="card highlights_card8" style="width: 18rem;">
-				<a href="#" class="highlights__link">
-					<img src="assets/img/pizzacapresebraz.jpg" class="card-img-top" alt="...">
-					<div class="card-body">
-						<h5 class="card-title">Espaguete Vôngole</h5>
-						<p class="card-text">Nesta receita de pizza caprese caseira preparamos a massa no liquidificador e a cobertura traz o saboroso pesto de azeitonas pretas, tomate e muçarela de búfala. Essa é uma maneira fácil de preparar essa pizza super clássica e que agrada a toda a família!</p>
-					</div>
-				</a>
-			</div>
+        </section>
+    </main>
 
-		</section>
-	</main>
 
-	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <footer>
+    	
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 
-	<!-- SCRIPT PARA USAR AWESOME ICONS -->
-	<script src="https://kit.fontawesome.com/246dfb7882.js" crossorigin="anonymous"></script>
+    <!-- SCRIPT PARA USAR AWESOME ICONS -->
+    <script src="https://kit.fontawesome.com/246dfb7882.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
