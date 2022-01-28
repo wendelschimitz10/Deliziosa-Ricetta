@@ -1,3 +1,7 @@
+.navbar--color{
+	background-color: rgb(248,249,250)!important;
+}
+
 .header-container{
 	display: grid;
 	grid-template-columns: 0.17fr 1fr;

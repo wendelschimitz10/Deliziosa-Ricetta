@@ -1,0 +1,31 @@
+.footer{
+	background-color: rgb(248,249,250);
+}
+
+.footer__h2{
+   padding-top: 3%;
+   font-size: 20px;
+}
+
+.footer--h2{
+	margin-right: 5%;
+	margin-left: -5%;
+	font-size: 20px;
+}
+
+.footer__p{
+	padding-bottom: 2%;
+	text-align: center;
+}
+
+.footer__text{
+	font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+.fa--custom{
+    font-size: 25px;
+    text-decoration: none;
+    color: #FF914D;
+}
