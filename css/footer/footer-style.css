@@ -1,31 +1,30 @@
+
 .footer{
 	background-color: rgb(248,249,250);
 }
 
 .footer__h2{
-   padding-top: 3%;
-   font-size: 20px;
-}
+	font-size: 25px;
+	text-align: center;
+	font-weight: bold;
 
-.footer--h2{
-	margin-right: 5%;
-	margin-left: -5%;
-	font-size: 20px;
 }
 
 .footer__p{
 	padding-bottom: 2%;
 	text-align: center;
+
+	font-weight: bold;
 }
 
 .footer__text{
-	font-size: 18px;
-    text-decoration: none;
-    color: black;
+	font-size: 16px!important;
+	text-decoration: none!important;
+	color: black!important;
 }
 
 .fa--custom{
-    font-size: 25px;
-    text-decoration: none;
-    color: #FF914D;
+	font-size: 25px;
+	text-decoration: none;
+	color: #FF914D;
 }
