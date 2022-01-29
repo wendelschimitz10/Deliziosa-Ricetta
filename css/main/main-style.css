@@ -2,8 +2,9 @@
     font-family: 'Comfortaa', cursive;
 }
 
+/* style referente ao banner com slide show*/
 .carousel-inner{
-    margin-top: 30px;
+    margin-top: 10px;
     padding: 20px;
 }
 
@@ -24,16 +25,41 @@
     transform: scale(1.2,1.2);
 }
 
-.fa-size {
+/* */
+
+/* ícones de midia social */
+.fa--custom {
     margin-top: 2%;
     margin-left: 3%;
     font-size: 35px;
     text-decoration: none;
     color: white;
+    transition: 0.2s;
+}
+
+.fa--custom:hover{
+    transform: scale(1.2,1.2)!important;
+}
+/* */
+
+/* estilizando os cards */
+
+.card{
+    width: 18rem;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    transition: 0.3s;
+}
+
+.card:hover{
+    box-shadow: 0px 1px 10px 1px grey;
+    border-radius: 15px;
+    transform: scale(1.1,1.1);
 }
 
 .card-title{
     font-weight: bold;
+    text-align: center;
 }
 
 .card-text {
@@ -44,35 +70,15 @@
 }
 
 .card-text:hover{
-    font-size: 12px;
-}
-
-.card--change--text {
-    font-size: 50px!important;
+    transform: scale(1.05,1.05);
 }
 
 .card-img-top{
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
 }
+/* */
 
-/* adicionando o grid area*/
-.highlights_container {
-    display: grid; /* iniciando grid */
-    grid-template-columns: 1fr 1fr 1fr 1fr; /* adicionando o mesmo tamanho do template das colunas*/
-    grid-auto-rows: 395px; /* adicionando pixels nas linhas */
-    grid-template-areas:  /* iniciando de fato o nosso grid area */
-    "highlights_card1 highlights_card2 highlights_card3" 
-    "highlights_card4 highlights_card5 highlights_card6" 
-    "highlights_card7 highlights_card8 highlights_card9";
-
-    /* dando uns espaços na margin*/
-    margin-top: 5%;
-    margin-left: 15%;
-
-    text-align: center; /* alinhando o texto no centro */
-    grid-gap: 65px; /* adicionando um espaço entre os grids, tanto no X quanto no Y */
-}
 
 /* como foi adicionado uma referencia aos cards, foi retirado o efeito de hyperlink deles*/
 .highlights__link {
@@ -87,53 +93,3 @@
 /* */
 
 
-/* iniciando os grids em sequencia */
-.highlights_card1 {
-    grid-area: highlights_card1;
-}
-
-.highlights_card2 {
-    grid-area: highlights_card2;
-}
-
-.highlights_card3 {
-    grid-area: highlights_card3;
-}
-
-.highlights_card4 {
-    grid-area: highlights_card4;
-}
-
-.highlights_card5 {
-    grid-area: highlights_card5;
-}
-
-.highlights_card6 {
-    grid-area: highlights_card6;
-}
-
-.highlights_card7 {
-    grid-area: highlights_card7;
-}
-
-.highlights_card8 {
-    grid-area: highlights_card8;
-}
-
-.highlights_card9{
-    grid-area: highlights_card9;
-}
-/* */
-
-
-/* adicionando uma acão nos cards do main */
-.card{
-    transition: 0.7s;
-}
-
-.card:hover{
-    box-shadow: 0px 1px 10px 1px grey;
-    border-radius: 15px;
-    width: 110%!important;
-}
-/* */
