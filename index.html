@@ -24,8 +24,6 @@
 
 	<!-- link para conectar a animações-->
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-
-
 </head>
 
 <body>
@@ -67,27 +65,61 @@
 			</nav>
 
 			<figure>
-				<img class="figure__img" src="assets/img/logo.png">
+				<img class="figure__img__logo" src="assets/img/logo.png">
 			</figure>
 		</section>
 	</header>
 
 	<main>
-		<section class="section_container">
-			<div>
-				<img class="main__image" src="assets/img/pizzacapresebraz.jpg">
-			</div>
-			<div class="main__text">
-				<h1 class="main__text__h1 text-center animate__animated animate__pulse">Receitas Italianas</h1>
-				<p class="m-s-4 main__text__p">A culinária da Itália faz sucesso ao redor do mundo todo e isso não é à toa. Além de deliciosas pizzas, lasanhas e macarrões, é bem fácil encontrar outras boas receitas de comidas italianas. Você pode escolher desde o petisco, entrada,
-					prato principal e até mesmo sobremesa. As opções são para todos os gostos.<br>
-					<br>
-					<br> Autor: Deliziosa Ricetta
-
-				</p>
-				<a href="https://www.instagram.com/wendel.mkt/"><i class="fab fa-instagram fa-size"></i></a>
-				<a href="https://github.com/wendelschimitz10/"><i class="fab fa-github fa-size"></i></a>
-				<a href="https://www.facebook.com/wendel.shimitz.3/"><i class="fab fa-facebook-square fa-size"></i></a>
+		<section class="section_banner d-flex justify-content-center">
+			<div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+				<div class="carousel-indicators">
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+				</div>
+				<div class="carousel-inner">
+					<div class="carousel-item active" data-bs-interval="3500">
+						<img src="assets/img/banner.png" class="d-block w-100" alt="...">
+						<div class="carousel-caption d-none d-md-block">
+							<h5 class="casousel__caption__h5">Culinária Italiana</h5>
+							<p class="carousel__caption__p">Famosa em todo mundo, difícil alguém que resista às irresistíveis massas entre outras opções típicas da Itália. A massa e a pizza são os mais famosos, mas há outras especialidades tão saborosas quanto. Orégano, manjericão, salsa, alecrim e sálvia são os principais temperos dos pratos.</p>
+							<a href="https://www.instagram.com/wendel.mkt/"><i class="fab fa-instagram fa--custom"></i></a>
+							<a href="https://github.com/wendelschimitz10/"><i class="fab fa-github fa--custom"></i></a>
+							<a href="https://www.facebook.com/wendel.shimitz.3/"><i class="fab fa-facebook-square fa--custom"></i></a>
+						</div>
+					</div>
+					<div class="carousel-item" data-bs-interval="3500">
+						<img src="assets/img/banner1.png" class="d-block w-100" alt="...">
+						<div class="carousel-caption d-none d-md-block">
+							<h5 class="casousel__caption__h5">Receitas Italianas</h5>
+							<p class="carousel__caption__p">A culinária da Itália faz sucesso ao redor do mundo todo e isso não é à toa. Além de deliciosas pizzas, lasanhas e macarrões, é bem fácil encontrar outras boas receitas de comidas italianas. Você pode escolher desde o petisco, entrada,
+							prato principal e até mesmo sobremesa. As opções são para todos os gostos.</p>
+							<a href="https://www.instagram.com/wendel.mkt/"><i class="fab fa-instagram fa--custom"></i></a>
+							<a href="https://github.com/wendelschimitz10/"><i class="fab fa-github fa--custom"></i></a>
+							<a href="https://www.facebook.com/wendel.shimitz.3/"><i class="fab fa-facebook-square fa--custom"></i>
+							</a>
+						</div>
+					</div>
+					<div class="carousel-item" data-bs-interval="3500">
+						<img src="assets/img/banner2.png" class="d-block w-100" alt="...">
+						<div class="carousel-caption d-none d-md-block">
+							<h5 class="casousel__caption__h5">Confira nossas receitas!!</h5>
+							<p class="carousel__caption__p">Novas receitas são adicionadas de segunda-feira a sexta-feira.</p>
+							<a href="https://www.instagram.com/wendel.mkt/"><i class="fab fa-instagram fa--custom"></i></a>
+							<a href="https://github.com/wendelschimitz10/"><i class="fab fa-github fa--custom"></i></a>
+							<a href="https://www.facebook.com/wendel.shimitz.3/"><i class="fab fa-facebook-square fa--custom"></i></a>
+						</div>
+					</div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
 			</div>
 		</section>
 
@@ -200,8 +232,8 @@
 
 				<!-- div-flex dos icones das midias sociais-->
 				<div class="d-flex flex-row bd-highlight mt-5 d-flex justify-content-center">
-					<div class="p-2 bd-highlight"><a href="https://www.instagram.com/wendel.mkt/"><i class="fab fa-instagram fa--custom"></i></a></div>
-					<div class="p-2 bd-highlight"><a href="https://github.com/wendelschimitz10/"><i class="fab fa-github fa--custom"></i></a></div>
+					<div class="p-2 bd-highlight"><a href="https://www.instagram.com/wendel.mkt/"><i class="fab fa-instagram fa--custom fa--custom--color"></i></a></div>
+					<div class="p-2 bd-highlight"><a href="https://github.com/wendelschimitz10/"><i class="fab fa-github fa--custom fa--custom--color"></i></a></div>
 					<div class="p-2 bd-highlight"><a href="https://www.facebook.com/wendel.shimitz.3/"><i class="fab fa-facebook-square fa--custom"></i></a></div>
 				</div>
 				<!-- -->

@@ -24,7 +24,13 @@
 }
 
 .fa--custom{
-	font-size: 25px;
+	font-size: 30px;
 	text-decoration: none;
+	color: white;
+	padding-right: 10px;
+	margin-left: 2%;
+}
+
+.fa--custom--color{
 	color: #FF914D;
 }
