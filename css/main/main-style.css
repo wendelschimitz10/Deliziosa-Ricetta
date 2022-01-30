@@ -3,19 +3,22 @@
 }
 
 /* style referente ao banner com slide show*/
+
+
 .carousel-inner{
-    margin-top: 10px;
-    padding: 20px;
+    margin-top: 45px;
+    box-shadow: 0 0 15px 1px #000;
+    margin-bottom: 7%;
 }
 
 .casousel__caption__h5{
-    margin-bottom: 6%;
-    font-size: 45px;
+    margin-bottom: 3%;
+    font-size: 55px;
     font-weight: bold;
 }
 
 .carousel__caption__p{
-    margin-bottom: 20%;
+    margin-bottom: 15%;
     font-size: 17px;
     transition: 0.3s;
     font-weight: bold;
@@ -31,14 +34,14 @@
 .fa--custom {
     margin-top: 2%;
     margin-left: 3%;
-    font-size: 35px;
+    font-size: 50px;
     text-decoration: none;
     color: white;
     transition: 0.2s;
 }
 
 .fa--custom:hover{
-    transform: scale(1.2,1.2)!important;
+    transform: scale(1.3,1.3)!important;
 }
 /* */
 
@@ -48,7 +51,7 @@
     width: 18rem;
     margin-top: 20px;
     margin-bottom: 50px;
-    transition: 0.3s;
+    transition: 0.4s!important;
 }
 
 .card:hover{
@@ -102,7 +105,7 @@
     display: flex;
     flex-wrap: wrap;
     border-radius: 10px;
-    background: linear-gradient(to right, #FF914D , #DC2810);
+    background: linear-gradient(to left, #FF914D , #DC2810);
 }
 
 .newsletter__h1{
@@ -110,15 +113,17 @@
     max-width: 100%;
     font-size: 30px;
     font-weight: bold;
+    text-align: center;
 }
 
 .newsletter__p{
+    text-align: center;
     color: white;
     max-width: 100%;
 }
 
 .btn__submit{
-    background: #FF914D; 
+    background: #FF914D;
     border: none;
     border-radius: 8px;
     transition: .3s;
@@ -143,3 +148,9 @@
 }
 
 /* */
+
+
+/* cards da page de receitas salgadas */
+.ricettas_list_image{
+    height: 100%!important;
+}
