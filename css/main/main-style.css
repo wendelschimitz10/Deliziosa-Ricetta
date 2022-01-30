@@ -93,7 +93,7 @@
 /* */
 
 
-
+/* estilizando toda a parte dos newsletter */
 .newsletter__card{
     max-width: 100%;
     padding: 65px;
@@ -118,7 +118,7 @@
 }
 
 .btn__submit{
-    background: #E04717; 
+    background: #FF914D; 
     border: none;
     border-radius: 8px;
     transition: .3s;
@@ -132,7 +132,7 @@
 }
 
 
-.fa-envelope{
+.fa-envelope{ /* ícone de email */
     max-width: 100%;
     text-item: center;
     margin-top: 2%;
@@ -141,3 +141,5 @@
     text-decoration: none;
     color: white;
 }
+
+/* */

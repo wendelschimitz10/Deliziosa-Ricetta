@@ -1,0 +1,60 @@
+.modal-content{
+	border-radius: 3%!important;
+}
+
+.modal-footer{
+	border: none!important;
+	margin-top: 10%;
+	margin-right: 37%;
+}
+
+.modal__close__button{
+	position: absolute;
+	top: -15px;
+	right: -15px;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	border: none;
+	background: #FF914D;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .5);
+	font-size: 1.5em;
+	transition: 0.3s;
+}
+
+.modal__close__button:hover{
+	transform: scale(1.2,1.2);
+}
+
+.button__custom{
+	font-weight: bold!important;
+	background: #FF914D!important;
+	border-radius: 20px!important;
+	color: white!important;
+	border: none;
+	transition: 0.3s!important;
+}
+
+.button__custom:hover{
+	transform: scale(1.2);
+}
+
+.form__modal__logo{
+	width: 40%;
+	margin-top: 7%;
+	transition: 0.3s;
+}
+
+.form__modal__logo:hover{
+	transform: scale(1.2);
+}
+
+
+.modal-header{
+	background: #FF914D;
+	color: white;
+	font-weight: bold;
+}
