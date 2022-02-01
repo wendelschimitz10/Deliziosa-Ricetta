@@ -16,8 +16,8 @@
 	height: 35px;
 	border-radius: 50%;
 	border: none;
-	background: #FF914D;
-	color: white;
+	background: var(--main-color-orange);
+	color: var(--secondary-color-white);
 	font-weight: bold;
 	cursor: pointer;
 	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .5);
@@ -31,9 +31,9 @@
 
 .button__custom{
 	font-weight: bold!important;
-	background: #FF914D!important;
+	background: var(--main-color-orange)!important;
 	border-radius: 20px!important;
-	color: white!important;
+	color: var(--secondary-color-white)!important;
 	border: none;
 	transition: 0.3s!important;
 }
@@ -54,7 +54,7 @@
 
 
 .modal-header{
-	background: #FF914D;
-	color: white;
+	background: var(--main-color-orange);
+	color: var(--secondary-color-white);
 	font-weight: bold;
 }

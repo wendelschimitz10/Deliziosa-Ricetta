@@ -1,0 +1,11 @@
+* {
+    font-family: 'Comfortaa', cursive;
+}
+
+html {
+	--main-color-orange: #FF914D;
+	--secondary-color-red: #DC2810;
+	--secondary-color-white: #FFFFFF;
+	--secondary-color-black: #000000;
+	--secondary-color-lightgrey: rgb(248,249,250);
+}
