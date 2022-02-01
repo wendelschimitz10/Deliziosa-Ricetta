@@ -2,37 +2,43 @@
     font-family: 'Comfortaa', cursive;
 }
 
+
 /* style referente ao banner com slide show*/
 
-
-.carousel-inner{
+.carousel-inner {
     margin-top: 45px;
     box-shadow: 0 0 15px 1px #000;
     margin-bottom: 7%;
 }
 
-.casousel__caption__h5{
-    margin-bottom: 3%;
-    font-size: 55px;
+.casousel__caption__h5 {
+    font-size: 75px;
     font-weight: bold;
+
 }
 
-.carousel__caption__p{
-    margin-bottom: 15%;
-    font-size: 17px;
-    transition: 0.3s;
+.carousel__caption__p {
+    font-size: 22px;
     font-weight: bold;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
-.carousel__caption__p:hover{
-    transform: scale(1.2,1.2);
+.black-window{
+    background: black;
+    opacity: 0.7;
+    border-radius: 10px;
+    padding: 3%;
+    margin-bottom: 8%;
+
 }
 
 /* */
 
+
 /* ícones de midia social */
+
 .fa--custom {
-    margin-top: 2%;
     margin-left: 3%;
     font-size: 50px;
     text-decoration: none;
@@ -40,27 +46,30 @@
     transition: 0.2s;
 }
 
-.fa--custom:hover{
-    transform: scale(1.3,1.3)!important;
+.fa--custom:hover {
+    transform: scale(1.3, 1.3)!important;
 }
+
+
 /* */
+
 
 /* estilizando os cards */
 
-.card{
+.card {
     width: 18rem;
     margin-top: 20px;
     margin-bottom: 50px;
     transition: 0.4s!important;
 }
 
-.card:hover{
+.card:hover {
     box-shadow: 0px 1px 10px 1px grey;
     border-radius: 15px;
-    transform: scale(1.1,1.1);
+    transform: scale(1.1, 1.1);
 }
 
-.card-title{
+.card-title {
     font-weight: bold;
     text-align: center;
 }
@@ -72,18 +81,21 @@
     transition: 0.3s;
 }
 
-.card-text:hover{
-    transform: scale(1.05,1.05);
+.card-text:hover {
+    transform: scale(1.05, 1.05);
 }
 
-.card-img-top{
+.card-img-top {
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
 }
+
+
 /* */
 
 
 /* como foi adicionado uma referencia aos cards, foi retirado o efeito de hyperlink deles*/
+
 .highlights__link {
     text-decoration: none;
     color: black;
@@ -93,22 +105,23 @@
     text-decoration: none;
     color: black;
 }
+
+
 /* */
 
 
 /* estilizando toda a parte dos newsletter */
-.newsletter__card{
+
+.newsletter__card {
     max-width: 100%;
     padding: 65px;
-    margin-left: 60px;
-    margin-right: 60px;
     display: flex;
     flex-wrap: wrap;
     border-radius: 10px;
-    background: linear-gradient(to left, #FF914D , #DC2810);
+    background: linear-gradient(to left, #FF914D, #DC2810);
 }
 
-.newsletter__h1{
+.newsletter__h1 {
     color: white;
     max-width: 100%;
     font-size: 30px;
@@ -116,13 +129,13 @@
     text-align: center;
 }
 
-.newsletter__p{
+.newsletter__p {
     text-align: center;
     color: white;
     max-width: 100%;
 }
 
-.btn__submit{
+.btn__submit {
     background: #FF914D;
     border: none;
     border-radius: 8px;
@@ -131,15 +144,14 @@
     padding-right: 10px;
 }
 
-.btn__submit:hover{
+.btn__submit:hover {
     border-radius: 10px;
-    transform: scale(1.3,1.3);
+    transform: scale(1.3, 1.3);
 }
 
-
-.fa-envelope{ /* ícone de email */
+.fa-envelope {
+    /* ícone de email */
     max-width: 100%;
-    text-item: center;
     margin-top: 2%;
     margin-left: 3%;
     font-size: 70px;
@@ -147,10 +159,5 @@
     color: white;
 }
 
+
 /* */
-
-
-/* cards da page de receitas salgadas */
-.ricettas_list_image{
-    height: 100%!important;
-}
