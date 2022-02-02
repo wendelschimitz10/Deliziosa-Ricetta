@@ -1,48 +1,116 @@
-.navbar{
-	max-width: 100%;
-	background-color: var(--secondary-color-lightgrey);
+.navbar {
+    max-width: 100%;
+    background-color: var(--secondary-color-lightgrey);
+}
+
+.form-control {
+    border-color: var(--main-color-orange)!important;
+    border-radius: 10px!important;
+    font-size: 12px!important;
+    width: 235px!important;
+}
+
+.btn__search {
+    background-color: var(--main-color-orange)!important;
+    color: var(--secondary-color-white)!important;
+    border-radius: 10px!important;
+    box-shadow: inset 0 0 0 0 #cd5e19;
+    transition: ease-out 1s!important;
+    font-size: 0.7rem!important;
+    border: none!important;
+    margin-right: 15%!important;
+}
+
+.btn__search:hover {
+    border: none;
+    box-shadow: inset 300px 0 0 0 #cd5e19;
+    font-size: 15px!important;
+    cursor: pointer;
+}
+
+.figure__img__logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -3.1%;
+    margin-bottom: -8%;
+    max-width: 100%;
+    width: 300px;
+    transition: 0.3s;
+}
+
+.figure__img__logo:hover {
+    transform: scale(1.2, 1.2);
 }
 
 
-.form-control{
-	border-color: var(--main-color-orange)!important;
-	border-radius: 10px!important;
-	font-size: 12px!important;
-	width: 235px!important;
+/* estilizando a parte da bolinha de troca de tema */
+
+.theme__switch__text {
+    font-size: 15px;
+    padding-right: .5rem;
 }
 
 
-.btn__search{
-	background-color: var(--main-color-orange)!important;
-	color: var(--secondary-color-white)!important;
-	border-radius: 10px!important;
-	box-shadow: inset 0 0 0 0 #cd5e19;
-	transition: ease-out 1s!important;
-	font-size: 0.7rem!important;
-	border: none!important;
-	margin-right: 15%!important;
+/* wrapper é o "papelzinho que fica atrás da bolinha"*/
+
+.switch__wrapper {
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    position: relative;
 }
 
 
-.btn__search:hover{
-	border: none;
-	box-shadow: inset 300px 0 0 0 #cd5e19;
-	font-size: 15px!important;
-	cursor: pointer;
+/* estilizando esse papelzinho*/
 
+.switch__button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 40px;
+    background-color: var(--main-color-orange);
 }
 
-.figure__img__logo{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: -3.1%;
-	margin-bottom: -8%;
-	max-width: 100%;
-	width: 300px;
-	transition: 0.3s;
+
+/* criando a bolinha*/
+
+.switch__button::before {
+    content: "";
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    left: 4px;
+    bottom: 4px;
+    border-radius: 50%;
+    transition: .4s all ease;
+    background-color: var(--secondary-color-white);
 }
 
-.figure__img__logo:hover{
-	transform: scale(1.2,1.2);
+
+/* é meio que uma gambiarra pra poder ocultar o checkbox que fica de fundo*/
+
+.switch__input__checkbox {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+
+/* após clicar em checked, a cor de fundo irá mudar*/
+
+.switch__input__checkbox:checked+.switch__button {
+    background-color: rgb(10, 59, 35);
+}
+
+
+/* e a bolinha irá para o lado*/
+
+.switch__input__checkbox:checked+.switch__button::before {
+    transform: translateX(26px);
 }
