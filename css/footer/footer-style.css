@@ -1,13 +1,12 @@
 
 .footer{
-	background-color: var(--secondary-color-lightgrey);
+	background-color: var(--footer-color);
 }
 
 .footer__h2{
 	font-size: 28px;
 	text-align: center;
 	font-weight: bold;
-
 }
 
 .footer__p{
@@ -19,7 +18,7 @@
 .footer__text{
 	font-size: 19px;
 	text-decoration: none;
-	color: var(--secondary-color-black);
+	color: var(--color-text);
 }
 
 .fa--custom{

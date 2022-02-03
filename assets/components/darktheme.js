@@ -4,13 +4,17 @@ const checkbox = document.querySelector("input[name=theme]");
 const getColorStyle = (element, style) => window.getComputedStyle(element).getPropertyValue(style);
 
 const mainColor = {
-    bg: getColorStyle(html, "--background-color"),
+    bgColor: getColorStyle(html, "--bg-color"),
     colorText: getColorStyle(html, "--color-text"),
+    headerColor: getColorStyle(html, "--header-color"),
+    footerColor:getColorStyle(html, "--footer-color"),
 }
 
 const darkThemeColor = {
-    bg: "#2D2424",
-    colorText: "#FFF",
+    bgColor: "#262525",
+    colorText: "#fff",
+    headerColor: "#282832",
+    footerColor: "#282832",
 }
 
 const transformKey = key => "--" + key.replace(/([A-Z])/, "-$1").toLowerCase();

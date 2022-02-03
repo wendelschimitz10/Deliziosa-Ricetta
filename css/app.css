@@ -2,8 +2,8 @@
     font-family: 'Comfortaa', cursive;
 }
 
-body {
-    background-color: var(--background-color);
+#body__style{
+    background-color: var(--bg-color);
     color: var(--color-text);
 }
 
@@ -12,7 +12,9 @@ html {
     --secondary-color-red: #DC2810;
     --secondary-color-white: #fff;
     --secondary-color-black: #000;
-    --secondary-color-lightgrey: rgb(248, 249, 250);
-    --background-color: #fff;
+    --carousel-shadow: #000;
+    --header-color: rgb(248, 249, 250);
+    --bg-color: #fff;
     --color-text: #000;
+    --footer-color: rgb(248, 249, 250);
 }

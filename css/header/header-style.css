@@ -1,13 +1,16 @@
 .navbar {
     max-width: 100%;
-    background-color: var(--secondary-color-lightgrey);
+    background-color: var(--header-color);
 }
 
-.form-control {
-    border-color: var(--main-color-orange)!important;
+#nav-link-text{
+    color: var(--color-text);
+}
+
+#form-control-id {
     border-radius: 10px!important;
     font-size: 12px!important;
-    width: 235px!important;
+    width: 255px!important;
 }
 
 .btn__search {
@@ -18,7 +21,7 @@
     transition: ease-out 1s!important;
     font-size: 0.7rem!important;
     border: none!important;
-    margin-right: 15%!important;
+    margin-right: 20%!important;
 }
 
 .btn__search:hover {
@@ -74,7 +77,7 @@
     justify-content: space-between;
     align-items: center;
     border-radius: 40px;
-    background-color: var(--main-color-orange);
+    background-color: #262525;
 }
 
 
@@ -105,7 +108,7 @@
 /* após clicar em checked, a cor de fundo irá mudar*/
 
 .switch__input__checkbox:checked+.switch__button {
-    background-color: rgb(10, 59, 35);
+    background-color: var(--main-color-orange);
 }
 
 
