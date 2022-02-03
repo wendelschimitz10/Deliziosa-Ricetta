@@ -27,6 +27,7 @@
 }
 
 .input__user{
+	color: var(--color-text);
 	background: none;
 	border: none;
 	outline: none;
