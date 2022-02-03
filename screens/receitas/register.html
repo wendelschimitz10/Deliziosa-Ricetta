@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Deliziosa Ricetta</title>
+
+    <!-- LINKS DE REFERÊNCIA -->
+
+    <!-- links de css -->
+    <link rel="stylesheet" type="text/css" href="../../css/header/header-style.css">
+    <link rel="stylesheet" type="text/css" href="../../css/main/main-style.css">
+    <link rel="stylesheet" type="text/css" href="../../css/footer/footer-style.css">
+    <link rel="stylesheet" type="text/css" href="../../css/modal/modal-style.css">
+    <link rel="stylesheet" type="text/css" href="../../css/app.css">
+    <link rel="stylesheet" type="text/css" href="../../css/register/register-style.css">
+
+    <!-- link para conectar ao bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/jquery/jquery-3.6.0.min.js">
+
+    <!-- links para conectar as fontes e icones do google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+
+    <!-- link para conectar a animações-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+
+<body id="body__style">
+    <header>
+        <section>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <!-- esse butto são os 3 tracinhos da responsividade (opções) -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- -->
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ps-3">
+                            <li class="nav-item">
+                                <a id="nav-link-text" class="nav-link" href="../../index.html">Inicio <i class="fas fa-home"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="nav-link-text" class="nav-link" href="receitassalgadas.html">Receitas salgadas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="nav-link-text" class="nav-link" href="receitasdoces.html">Receitas doces</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="nav-link-text" class="nav-link" href="#">Bebidas</a>
+                            </li>
+                            <li>
+                                <a id="nav-link-text" class="nav-link active" aria-current="page" href="register.html">Criar conta</a>
+                            </li>
+                        </ul>
+
+
+                        <form class="d-flex">
+                            <input id="form-control-id" class="form-control me-2" type="search" placeholder="O que está procurando?" aria-label="Search">
+                            <button class="btn btn__search" type="submit"><i class="fas fa-search"></i></button>
+                        </form>
+
+
+                        <div class="dark__theme">
+                            <label class="theme__switch" for="switch">	
+                                <span class="theme__switch__text"> Claro / Escuro</span>
+                                <div class="switch__wrapper">
+                                    <input class="switch__input__checkbox" id="switch" type="checkbox" name="theme">
+                                    <span class="switch__button"></span>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <figure>
+                <img class="figure__img__logo" src="../../assets/img/logo.png">
+            </figure>
+        </section>
+    </header>
+
+    <main>
+        <section class="register">
+            <h2 class="register__h2">Cadastro pessoal</h2>
+            <form>
+                <!-- campos de input para informações básicas, nome, email e senha com expressão regular -->
+                <fieldset>
+                    <legend class="legend__title">Informações básicas</legend>
+                    <div class="input__div">
+                        <input name="nome" id="nome" class="input__user" type="text" data-tipo="nome" placeholder="Nome" required>
+                        <label class="input__label" for="nome"></label>
+                    </div>
+                    <div class="input__div">
+                        <input name="email" id="email" class="input__user" type="email" data-tipo="email" placeholder="Email"required>
+                        <label class="input__label" for="email"></label>
+                    </div>
+                    <div class="input__div">
+                        <input name="senha" id="senha" class="input__user" type="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,12}$" title="A senha deve conter entre 6 a 12 caracteres, deve conter pelo menos uma letra maiúscula, um número e não deve conter símbolos." data-tipo="senha" placeholder="Senha" required>
+                        <label class="input__label" for="senha"></label>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend class="legend__title">Informações pessoais</legend>
+                    <div class="input__div">
+                        <input name="nascimento" id="nascimento" class="input__user" type="date" data-tipo="dataNascimento" placeholder="Data de Nascimento" required>
+                        <label class="input__label" for="nascimento"></label>
+                    </div>
+                    <div class="input__div">
+                        <input name="cpf" id="cpf" class="input__user" type="text" data-tipo="cpf" placeholder="CPF" required>
+                        <label class="input__label" for="cpf"></label>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend class="legend__title">Endereço</legend>
+                    <div class="input__div">
+                        <input name="cep" id="cep" class="input__user" type="text" pattern="[\d]{5}-?[\d]{3}" data-tipo="cep" placeholder="CEP" required>
+                        <label class="input__label" for="cep"></label>
+                    </div>
+                    <div class="input__div">
+                        <input name="logradouro" id="logradouro" class="input__user" type="text" data-tipo="logradouro" placeholder="Logradouro" required>
+                        <label class="input__label" for="logradouro"></label>
+                    </div>
+                    <div class="input__div">
+                        <input name="cidade" id="cidade" class="input__user" type="text" data-tipo="cidade" placeholder="Cidade" required>
+                        <label class="input__label" for="cidade"></label>
+                    </div>
+                    <div class="input__div">
+                        <input name="estado" id="estado" class="input__user" type="text" data-tipo="estado" placeholder="Estado" required>
+                        <label class="input__label" for="estado"></label>
+                    </div>
+                </fieldset>
+                
+            </form>
+            <button class="register__button">Cadastrar</a></button>
+        </section>
+    </main>
+
+
+    <footer class="footer">
+
+        <!-- div-flex dos títulos do footer -->
+        <div class="d-flex bd-highlight mb-3 mt-5 justify-content-center">
+            <div class="p-2 bd-highlight">
+                <h2 class="ms-5 me-5 footer__h2">Redes Sociais</h2>
+
+                <!-- div-flex dos icones das midias sociais-->
+                <div class="d-flex flex-row bd-highlight mt-5 d-flex justify-content-center">
+                    <div class="p-2 bd-highlight"><a href="https://www.instagram.com/wendel.mkt/"><i class="fab fa-instagram fa--custom fa--custom--color"></i></a></div>
+                    <div class="p-2 bd-highlight"><a href="https://github.com/wendelschimitz10/"><i class="fab fa-github fa--custom fa--custom--color"></i></a></div>
+                    <div class="p-2 bd-highlight"><a href="https://www.facebook.com/wendel.shimitz.3/"><i class="fab fa-facebook-square fa--custom fa--custom--color"></i></a></div>
+                </div>
+                <!-- -->
+            </div>
+            
+            <div class="p-2 bd-highlight">
+                <h2 class="ms-5 me-5 footer__h2">Informações</h2>
+                
+                <div class="d-flex flex-fill bd-highlight mt-5 mb-5 d-flex">
+                    <div class="p-2 bd-highlight"><a href="#" class="footer__text">Inicio</a></div>
+                    <div class="p-2 bd-highlight"><a href="#" class="footer__text">Sobre nós</a></div>
+                    <div class="p-2 bd-highlight"><a href="" class="footer__text">Política de Privacidade</a></div>
+                    <div class="p-2 bd-highlight"><a href="" class="footer__text">Termos de uso</a></div>
+                </div>
+
+            </div>  
+        </div>      
+        <p class="footer__p">&copy;2022 - Deliziosa Ricetta - Todos os direitos reservados</p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+    <!-- SCRIPT PARA USAR AWESOME ICONS -->
+    <script src="https://kit.fontawesome.com/246dfb7882.js" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="../../assets/components/darktheme.js"></script>
+
+</body>
+
+</html>
