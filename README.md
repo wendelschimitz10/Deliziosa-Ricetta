@@ -20,3 +20,12 @@ Created to demonstrate my knowledge in a challenge proposed by mentors from the 
 * Trello (https://trello.com/b/LVho6iGw/deliziosa-ricetta - Method Kanban)
 
 ## Getting Started
+
+
+## Author
+
+## References
+
+<h4 align="center"> 
+	🚧  Deliziosa Ricetta 🚀 Em construção...  🚧
+</h4>
