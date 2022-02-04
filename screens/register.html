@@ -109,11 +109,11 @@
                 <fieldset>
                     <legend class="legend__title">Informações pessoais</legend>
                     <div class="input__div">
-                        <input name="nascimento" id="nascimento" class="input__user" type="date" data-tipo="dataNascimento" placeholder="Data de Nascimento" required>
+                        <input name="nascimento" id="nascimento" class="input__user" type="date"  data-tipo="dataNascimento" placeholder="Data de Nascimento" required>
                         <label class="input__label" for="nascimento"></label>
                     </div>
                     <div class="input__div">
-                        <input name="cpf" id="cpf" class="input__user" type="text" data-tipo="cpf" placeholder="CPF" required>
+                        <input name="cpf" id="cpf" class="input__user" type="text" pattern="[0-9]{11}" title="O campo do CPF é composto por 11 números." data-tipo="cpf" placeholder="CPF" required>
                         <label class="input__label" for="cpf"></label>
                     </div>
                 </fieldset>
