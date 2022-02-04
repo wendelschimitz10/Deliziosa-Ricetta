@@ -109,7 +109,7 @@
     display: flex;
     flex-wrap: wrap;
     border-radius: 10px;
-    background: linear-gradient(to left, var(--main-color-orange), var(--secondary-color-red));
+    background: var(--news-color);
 }
 
 .newsletter__h1 {
@@ -126,7 +126,7 @@
 }
 
 .btn__submit {
-    background: var(--main-color-orange);
+    background: none;
     border: none;
     border-radius: 8px;
     transition: .3s;
@@ -136,7 +136,7 @@
 
 .btn__submit:hover {
     border-radius: 10px;
-    transform: scale(1.3, 1.3);
+    transform: scale(1.5, 1.5);
 }
 
 .fa-envelope {

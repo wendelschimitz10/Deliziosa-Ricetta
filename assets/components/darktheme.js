@@ -8,6 +8,9 @@ const mainColor = {
     colorText: getColorStyle(html, "--color-text"),
     headerColor: getColorStyle(html, "--header-color"),
     footerColor:getColorStyle(html, "--footer-color"),
+    footerColor:getColorStyle(html, "--footer-color"),
+    modalHeader:getColorStyle(html, "--modal-header"),
+    newsColor:getColorStyle(html, "--news-color")
 }
 
 const darkThemeColor = {
@@ -15,6 +18,8 @@ const darkThemeColor = {
     colorText: "#fff",
     headerColor: "#282832",
     footerColor: "#282832",
+    modalHeader: "#282832",
+    newsColor: "#282832",
 }
 
 const transformKey = key => "--" + key.replace(/([A-Z])/, "-$1").toLowerCase();
