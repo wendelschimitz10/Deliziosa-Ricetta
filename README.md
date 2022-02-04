@@ -19,13 +19,26 @@ Created to demonstrate my knowledge in a challenge proposed by mentors from the 
 * Github
 * Trello (https://trello.com/b/LVho6iGw/deliziosa-ricetta - Method Kanban)
 
-## Getting Started
 
+### Features
+
+- [x] Navbar Menu
+- [x] User register
+- [x] Black Theme / Main Theme
+- [x] Home page
+- [x] Receitas salgadas page
+- [x] Receitas doces page
+- [x] Newsletter register
+- [X] Footer Menu 
+
+## Getting Started
 
 ## Author
 
 ## References
 
+
+
 <h4 align="center"> 
-	🚧  Deliziosa Ricetta 🚀 Em construção...  🚧
+	🚧  Deliziosa Ricetta 🚀 Under development...  🚧
 </h4>
