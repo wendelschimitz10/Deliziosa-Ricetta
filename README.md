@@ -23,12 +23,12 @@ Created to demonstrate my knowledge in a challenge proposed by mentors from the 
 ### Features
 
 - [x] Navbar Menu
-- [x] User register
+- [x] User sign up
 - [x] Black Theme / Main Theme
 - [x] Home page
 - [x] Receitas salgadas page
 - [x] Receitas doces page
-- [x] Newsletter register
+- [x] Newsletter sign up
 - [X] Footer Menu 
 
 ## Layout Main
@@ -57,9 +57,19 @@ This cards have hover (scale) action.
 
 ![newsletter](https://user-images.githubusercontent.com/98092597/152622652-d0f14c83-4963-42df-bd15-ddd755945f4f.png)
 
-<h3>6) Modal Newsletter </h3>
+<h3>5) Modal Newsletter </h3>
 
 ![modalnewsletter](https://user-images.githubusercontent.com/98092597/152623117-98322f86-37a3-4e38-b01a-dd71c6d870dd.png)
+
+<h3>6) Footer </h3>
+
+![footer](https://user-images.githubusercontent.com/98092597/152623341-77da8548-2a9c-4877-a6af-a5e7e86fe9a7.png)
+
+<h3>7) Sign up forms </h3>
+
+![signup](https://user-images.githubusercontent.com/98092597/152623438-700ce219-174b-4e52-8b91-835929be63dd.png)
+
+![signup2](https://user-images.githubusercontent.com/98092597/152623440-011e3df6-531c-47ec-8464-9ce276aee7ee.png)
 
 
 ## Autor
