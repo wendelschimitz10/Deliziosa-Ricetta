@@ -161,7 +161,7 @@ checkbox.addEventListener("change", ({ target }) => {
 
 ## Autor
 
-<h2>Wendel Schimitz</h2>
+### Wendel Schimitz
 
 <img style="border-radius: 50%;" src="https://user-images.githubusercontent.com/98092597/152659772-338f8106-8dad-4bca-a12a-34d6fd70ccda.jpeg" width="85px;" alt="Wendel Schimitz"/>
 
@@ -171,7 +171,7 @@ checkbox.addEventListener("change", ({ target }) => {
 
 <a href="https://www.facebook.com/wendel.shimitz.3/"><p>Facebook</p></a>
 
-<a href="https://www.facebook.com/CIMotivacionais"><p>CitaçõesΔMotivacionais page</p></a>
+<a href="https://www.facebook.com/CIMotivacionais"><p>Page CitaçõesΔMotivacionais</p></a>
 
 ## References
 https://docs.google.com/document/d/1sJHvDZkVt659GbLDd_7wM1w5iiMPlJxCNL9x81l_XEY/edit?usp=sharing
