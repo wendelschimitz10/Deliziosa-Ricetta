@@ -1,5 +1,3 @@
-
-
 ![logo](https://user-images.githubusercontent.com/98092597/152608740-8c2aba32-4e03-4d2c-8809-cecf3dfbc3d8.png)
 
 ## Deliziosa Ricetta
@@ -43,5 +41,6 @@ Created to demonstrate my knowledge in a challenge proposed by mentors from the 
 
 <h4 align="center"> 
 	🚧  Deliziosa Ricetta 🚀 Under development...  🚧
+	
 	<img alt="GitHub" src="https://img.shields.io/github/license/wendelschimitz10/Deliziosa-Ricetta?style=plastic">
 </h4>
