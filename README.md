@@ -1,4 +1,4 @@
-![logo](https://user-images.githubusercontent.com/98092597/152608740-8c2aba32-4e03-4d2c-8809-cecf3dfbc3d8.png)
+<img src="https://user-images.githubusercontent.com/98092597/152608740-8c2aba32-4e03-4d2c-8809-cecf3dfbc3d8.png" width="25%" alt="Wendel Schimitz"/>
 
 ## Deliziosa Ricetta
 Italian recipes Website.
