@@ -69,7 +69,8 @@ This cards have hover (scale) action.
 
 ![Captura de tela de 2022-02-04 22-28-26](https://user-images.githubusercontent.com/98092597/152623525-74d48934-a6cb-46d2-b485-3a8c0fbe22b5.png)
 
-![Captura de tela de 2022-02-04 22-28-48](https://user-images.githubusercontent.com/98092597/152623527-a1099318-4803-41e1-aa36-e663235bd489.png)
+![Captura de tela de 2022-02-04 22-30-30](https://user-images.githubusercontent.com/98092597/152623584-4b340bab-ec26-4ecb-bc6c-317f2b3d9c95.png)
+
 
 
 ## Autor
