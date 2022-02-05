@@ -40,7 +40,7 @@ Created to demonstrate my knowledge in a challenge proposed by mentors from the 
 
 ![bannerslide](https://user-images.githubusercontent.com/98092597/152621666-8db1c53d-305f-4c70-94f9-35841404eb97.png)
 
-<h3>2) Highlights cards </h3>
+<h3>3) Highlights cards </h3>
 
 
 
