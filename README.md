@@ -31,9 +31,20 @@ Created to demonstrate my knowledge in a challenge proposed by mentors from the 
 - [x] Newsletter register
 - [X] Footer Menu 
 
-## Getting Started
+## Layout Main
+<h3>1) Navbar Menu</h3>
 
-### Autor
+![navbar_menu](https://user-images.githubusercontent.com/98092597/152621425-50da5520-7d7d-4ce8-8618-71c447eddcdf.png)
+	
+<h3>2) Bannerslide </h3>
+
+![bannerslide](https://user-images.githubusercontent.com/98092597/152621666-8db1c53d-305f-4c70-94f9-35841404eb97.png)
+
+<h3>2) Highlights cards </h3>
+
+
+
+## Autor
 
 ## References
 
