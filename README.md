@@ -38,11 +38,20 @@ Created to demonstrate my knowledge in a challenge proposed by mentors from the 
 	
 <h3>2) Bannerslide </h3>
 
+<p> I used <a href="https://www.canva.com/">canva</a> to fix images dimension 1400x600</p>
+
 ![bannerslide](https://user-images.githubusercontent.com/98092597/152621666-8db1c53d-305f-4c70-94f9-35841404eb97.png)
 
-<h3>3) Highlights cards </h3>
+<h3>3) Cards format</h3>
+
+![cards](https://user-images.githubusercontent.com/98092597/152622186-5d6af929-ebfd-437c-909a-86acba127a75.png)
 
 
+<h3>4) Newsletter </h3>
+
+![newsletter](https://user-images.githubusercontent.com/98092597/152622652-d0f14c83-4963-42df-bd15-ddd755945f4f.png)
+
+<h3>5) Newsletter </h3>
 
 ## Autor
 
