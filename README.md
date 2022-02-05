@@ -24,7 +24,7 @@ Created to demonstrate my knowledge in a challenge proposed by mentors from the 
 
 - [x] Navbar Menu
 - [x] User sign up
-- [x] Black Theme / Main Theme
+- [x] Dark Theme / Main Theme
 - [x] Home page
 - [x] Receitas salgadas page
 - [x] Receitas doces page
@@ -65,6 +65,7 @@ This cards have hover (scale) action.
 
 ![footer](https://user-images.githubusercontent.com/98092597/152623341-77da8548-2a9c-4877-a6af-a5e7e86fe9a7.png)
 
+
 <h3>7) Sign up forms </h3>
 
 <p> In this section i used REGEX to get password/CPF&&CEP default</p>
@@ -73,7 +74,90 @@ This cards have hover (scale) action.
 
 ![Captura de tela de 2022-02-04 22-30-30](https://user-images.githubusercontent.com/98092597/152623584-4b340bab-ec26-4ecb-bc6c-317f2b3d9c95.png)
 
+```
+<div class="input__div">
+    <input name="senha" id="senha" class="input__user" type="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,12}$" title="A senha deve conter entre 6 a 12 caracteres, deve conter pelo menos uma letra maiúscula, um número e não deve conter símbolos." data-tipo="senha" placeholder="Senha" required>
+    <label class="input__label" for="senha"></label>
+</div>
+<div class="input__div">
+    <input name="cpf" id="cpf" class="input__user" type="text" pattern="[0-9]{11}" title="O campo do CPF é composto por 11 números." data-tipo="cpf" placeholder="CPF" required>
+    <label class="input__label" for="cpf"></label>
+</div>
+<div class="input__div">
+    <input name="cep" id="cep" class="input__user" type="text" pattern="[\d]{5}-?[\d]{3}" data-tipo="cep" placeholder="CEP" required>
+    <label class="input__label" for="cep"></label>
+</div>
+```
 
+<h3>8) Dark theme demonstration </h3>
+
+![Captura de tela de 2022-02-04 22-34-42](https://user-images.githubusercontent.com/98092597/152623722-cc510b13-5b59-469d-b7d1-36b1665fdd57.png)
+
+```
+HTML5:
+<div class="dark__theme">
+     <label class="theme__switch" for="switch">	
+         <span class="theme__switch__text"> Claro / Escuro</span>
+         <div class="switch__wrapper">
+             <input class="switch__input__checkbox" id="switch" type="checkbox" name="theme">
+             <span class="switch__button"></span>
+         </div>
+     </label>
+</div>
+
+CSS3:
+html {
+    --main-color-orange: #FF914D;
+    --secondary-color-red: #DC2810;
+    --secondary-color-white: #fff;
+    --secondary-color-black: #000;
+    --carousel-shadow: #000;
+    --header-color: rgb(248, 249, 250);
+    --bg-color: #fff;
+    --color-text: #000;
+    --footer-color: rgb(248, 249, 250);
+    --modal-header: #FF914D;
+    --news-color:#FF914D;
+}
+
+JS:
+const html = document.querySelector("html");
+const checkbox = document.querySelector("input[name=theme]");
+
+const getColorStyle = (element, style) => window.getComputedStyle(element).getPropertyValue(style);
+
+const mainColor = {
+    bgColor: getColorStyle(html, "--bg-color"),
+    colorText: getColorStyle(html, "--color-text"),
+    headerColor: getColorStyle(html, "--header-color"),
+    footerColor:getColorStyle(html, "--footer-color"),
+    footerColor:getColorStyle(html, "--footer-color"),
+    modalHeader:getColorStyle(html, "--modal-header"),
+    newsColor:getColorStyle(html, "--news-color")
+}
+
+const darkThemeColor = {
+    bgColor: "#262525",
+    colorText: "#fff",
+    headerColor: "#282832",
+    footerColor: "#282832",
+    modalHeader: "#282832",
+    newsColor: "#282832",
+}
+
+const transformKey = key => "--" + key.replace(/([A-Z])/, "-$1").toLowerCase();
+
+const changeColors = (colors) => {
+    Object.keys(colors).map(key =>
+        html.style.setProperty(transformKey(key), colors[key])
+    );
+}
+
+checkbox.addEventListener("change", ({ target }) => {
+    target.checked ? changeColors(darkThemeColor) : changeColors(mainColor);
+})
+
+```
 
 ## Autor
 
