@@ -67,9 +67,9 @@ This cards have hover (scale) action.
 
 <h3>7) Sign up forms </h3>
 
-![signup](https://user-images.githubusercontent.com/98092597/152623438-700ce219-174b-4e52-8b91-835929be63dd.png)
+![Captura de tela de 2022-02-04 22-28-26](https://user-images.githubusercontent.com/98092597/152623525-74d48934-a6cb-46d2-b485-3a8c0fbe22b5.png)
 
-![signup2](https://user-images.githubusercontent.com/98092597/152623440-011e3df6-531c-47ec-8464-9ce276aee7ee.png)
+![Captura de tela de 2022-02-04 22-28-48](https://user-images.githubusercontent.com/98092597/152623527-a1099318-4803-41e1-aa36-e663235bd489.png)
 
 
 ## Autor
