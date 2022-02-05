@@ -44,6 +44,10 @@ Created to demonstrate my knowledge in a challenge proposed by mentors from the 
 
 <h3>3) Cards format</h3>
 
+<p> I used flex to all cards.<br>
+This cards have hover (scale) action.
+</p>
+
 ![cards](https://user-images.githubusercontent.com/98092597/152622186-5d6af929-ebfd-437c-909a-86acba127a75.png)
 
 
