@@ -33,7 +33,7 @@ Created to demonstrate my knowledge in a challenge proposed by mentors from the 
 
 ## Getting Started
 
-## Author
+### Autor
 
 ## References
 
