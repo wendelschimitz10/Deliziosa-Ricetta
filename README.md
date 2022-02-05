@@ -40,7 +40,7 @@ Created to demonstrate my knowledge in a challenge proposed by mentors from the 
 
 
 <h4 align="center"> 
-	🚧  Deliziosa Ricetta 🚀 Under development...  🚧
-	
 	<img alt="GitHub" src="https://img.shields.io/github/license/wendelschimitz10/Deliziosa-Ricetta?style=plastic">
+	
+	🚧  Deliziosa Ricetta 🚀 Under development...  🚧
 </h4>
