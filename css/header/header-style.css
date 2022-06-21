@@ -3,15 +3,34 @@
     background-color: var(--header-color);
 }
 
+.navbar-nav{
+	padding-top: 5%;
+	}
+	
+.navbar-toggler:hover{
+	box-shadow: 0px 0px 0px 1px black!important;
+	}
+
 #nav-link-text{
     color: var(--color-text);
 }
+
+#search-bar{
+	display: flex;
+	justify-content: end;
+	width: 100%;
+	}
 
 #form-control-id {
     border-radius: 10px!important;
     font-size: 12px!important;
     width: 255px!important;
+	border: 1px solid #DDD;
 }
+
+#form-control-id:hover{
+	box-shadow: 0px 0px 3px 1px orange;
+	}
 
 .btn__search {
     background-color: var(--main-color-orange)!important;
@@ -21,25 +40,42 @@
     transition: ease-out 1s!important;
     font-size: 0.7rem!important;
     border: none!important;
-    margin-right: 20%!important;
+    margin-right: 5%!important;
 }
 
 .btn__search:hover {
-    border: none;
-    box-shadow: inset 300px 0 0 0 #cd5e19;
-    font-size: 15px!important;
+    box-shadow: inset 100px 0 0 0 #cd5e19;
     cursor: pointer;
 }
 
+.btn__search:focus{
+	box-shadow: none!important;
+	}
+	
+header figure{
+	padding: 0!important;
+	margin: 0!important;
+	}
+
 .figure__img__logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -3.1%;
-    margin-bottom: -3%;
+    display: flex;
+	 margin: auto;
+    justify-content: center;
     max-width: 100%;
-    width: 300px;    
+    width: 300px;
 }
+
+.dark__theme{
+	display: flex;
+	justify-content: end;
+	}
+	
+.theme__switch{
+	display: flex;
+	white-space: nowrap;
+	margin-right: 5%;
+	margin-bottom: 10%;
+	}
 
 /* estilizando a parte da bolinha de troca de tema */
 
@@ -52,10 +88,13 @@
 /* wrapper é o "papelzinho que fica atrás da bolinha"*/
 
 .switch__wrapper {
-    display: inline-block;
-    width: 60px;
-    height: 34px;
+   display: inline-block;
+	display: flex;
+	align-items: center;
+    width: 50px;
+    height: 20px;
     position: relative;
+	 margin-left: 1%;
 }
 
 
@@ -72,6 +111,7 @@
     align-items: center;
     border-radius: 40px;
     background-color: #262525;
+	border: 1px solid black;
 }
 
 
@@ -79,14 +119,14 @@
 
 .switch__button::before {
     content: "";
-    width: 26px;
-    height: 26px;
+    width: 28px;
+    height: 28px;
     position: absolute;
-    left: 4px;
-    bottom: 4px;
+    left: -5px;
     border-radius: 50%;
     transition: .4s all ease;
     background-color: var(--secondary-color-white);
+	 box-shadow: 0px 0px 3px black;
 }
 
 
