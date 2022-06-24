@@ -1,5 +1,7 @@
 .modal-content{
-	margin-top: 5%;
+	margin-top: 5%!important;
+	width: 90%!important;
+	margin: auto;
 	border-radius: 3%!important;
 }
 
@@ -11,12 +13,13 @@
 	border: none!important;
 	margin-top: 10%;
 	margin-right: 37%;
+	width: 100%;
 }
 
 .modal__close__button{
 	position: absolute;
 	top: -15px;
-	right: -15px;
+	right: -12px;
 	width: 35px;
 	height: 35px;
 	border-radius: 50%;
@@ -41,7 +44,8 @@
 	color: var(--secondary-color-white)!important;
 	border: none;
 	transition: 0.3s!important;
-	width: 45%!important;
+	width: 35%!important;
+	margin: auto!important;
 }
 
 .button__custom:hover{

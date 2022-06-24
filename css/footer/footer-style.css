@@ -2,7 +2,17 @@
 .footer{
 	background-color: var(--footer-color);
 }
-}
+
+.footer__block div{
+	margin-top: 5%!important;
+	}
+
+.footer__block{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	}
 
 .footer__h2{
 	font-size: 28px;
@@ -33,3 +43,50 @@
 .fa--custom--color{
 	color: var(--main-color-orange);
 }
+
+
+
+
+
+@media (max-width: 1023px){
+.fa--custom{
+	font-size: 10vw;
+	padding-right: 2%;
+	margin-left: 2%;
+}
+
+.footer__h2{
+	font-size: 5vw;
+}
+
+.footer__text{
+	font-size: 4vw;
+}
+
+.footer__p{
+	padding-bottom: 2%;
+	font-size: 3.5vw;
+}
+
+#footer__icons, .footer__menu{
+	flex-direction: column!important;
+	align-items: center;
+	text-align: center!important;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
