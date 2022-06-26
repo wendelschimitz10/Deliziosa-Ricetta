@@ -1,13 +1,36 @@
 
+main{
+	margin-bottom: 10%!important;
+	}
+
 /* style referente ao banner com slide show*/
 
-.carousel-inner {
+#carouselExampleCaptions{
+	width: 100%!important;
+	height: 100%!important;
+	}
+
+.carousel-inner{
     box-shadow: 0 0 15px 1px #000;
-    margin-bottom: 1%;
 }
 
+.carousel-inner{
+	height: 100%!important;
+	}
+
+.carousel-inner .carousel-item{
+	height: 100%!important;
+	}
+	
+.carousel-item .d-md-block{
+	height: 100%!important;
+	display: flex!important;
+	flex-direction: column;
+	justify-content: space-between;
+	}
+
 .casousel__caption__h5 {
-    font-size: 75px;
+    font-size: 65px;
     font-weight: bold;
 
 }
@@ -23,7 +46,27 @@
     background: var(--secondary-color-black);
     opacity: 0.7;
     border-radius: 10px;
+	 margin-top: 5%!important;
 }
+
+.carousel__icons{
+	position: absolute!important;
+	bottom: 0!important;
+	display: flex;
+	justify-content: center;
+	width: 100%!important;
+	}
+	
+.carousel__icons a{
+	 margin-right: 5%!important;
+	margin-left: 5%!important;
+	}
+	
+.carousel__icons .fa--custom{
+	margin-right: 5%!important;
+	margin-left: 5%!important;
+	font-size: 5vw!important;
+	}
 
 /* */
 
@@ -32,7 +75,7 @@
 
 .fa--custom {
     margin-left: 3%;
-    font-size: 5vw!important;
+    font-size: 4vw!important;
     text-decoration: none;
     color: var(--secondary-color-white);
     transition: 0.2s;
@@ -47,18 +90,16 @@
 
 
 /* estilizando os cards */
-.card_highlights{
-	margin-top: 5%;
-	}
 
 .cards-container{
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
+	margin-top: 10%;
 	}
 
 .card {
-    width: 45%;
+    width: 30%;
     margin-top: 20px;
     margin-bottom: 50px;
     transition: 0.5s!important;
@@ -87,6 +128,11 @@
 .card-text:hover {
     transform: scale(1.05, 1.05);
 }
+
+.card-img-top{
+	height: 30vh;
+	object-fit: cover;
+	}
 
 
 /* */
@@ -152,7 +198,7 @@
     max-width: 100%;
     margin-top: 2%;
     margin-left: 3%;
-    font-size: 70px;
+    font-size: 50px;
     text-decoration: none;
     color: var(--secondary-color-white);
 }
@@ -176,6 +222,10 @@
 
 
 @media (max-width: 1023px){
+.carousel-item .d-md-block{
+	display: none!important;
+	}
+	
 .card {
     width: 80%;
 }
@@ -187,6 +237,10 @@
 .card-text {
     font-size: 4vw;
 }
+
+.card-img-top{
+	height: 50vw;
+	}
 	
 .newsletter__h1 {
     font-size: 6vw;

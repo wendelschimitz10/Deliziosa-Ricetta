@@ -32,6 +32,21 @@
 	color: var(--color-text);
 }
 
+#footer-icons .footer-icons__option i{
+	font-size: 3.5vw!important;
+	}
+	
+#footer-icons .footer-icons__option{
+	margin: 5%!important;
+	padding: 0!important;
+	}
+
+.footer-menu .footer-menu__option{
+	padding: 0!important;
+	margin: 5%!important;
+	margin-top: 0!important;
+	}
+
 .fa--custom{
 	font-size: 30px;
 	text-decoration: none;
@@ -50,7 +65,7 @@
 
 @media (max-width: 1023px){
 .fa--custom{
-	font-size: 10vw;
+	font-size: 10vw!important;
 	padding-right: 2%;
 	margin-left: 2%;
 }
@@ -68,11 +83,25 @@
 	font-size: 3.5vw;
 }
 
-#footer__icons, .footer__menu{
+#footer-icons, .footer-menu{
 	flex-direction: column!important;
 	align-items: center;
 	text-align: center!important;
 }
+
+#footer-icons .footer-icons__option{
+	margin: 25%!important;
+	
+	}
+
+#footer-icons .footer-icons__option i{
+	font-size: 10vw!important;
+	}
+	
+.footer-menu .footer-menu__option{
+	padding: 0!important;
+	margin: 5%!important;
+	}
 }
 
 

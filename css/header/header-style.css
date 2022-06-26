@@ -25,7 +25,7 @@
     border-radius: 10px!important;
     font-size: 12px!important;
     width: 255px!important;
-	border: 1px solid #DDD;
+	 border: 1px solid #DDD;
 }
 
 #form-control-id:hover{
@@ -74,7 +74,7 @@ header figure{
 	display: flex;
 	white-space: nowrap;
 	margin-right: 5%;
-	margin-bottom: 10%;
+	margin-bottom: 5%;
 	}
 
 /* estilizando a parte da bolinha de troca de tema */
@@ -91,8 +91,8 @@ header figure{
    display: inline-block;
 	display: flex;
 	align-items: center;
-    width: 50px;
-    height: 20px;
+    width: 45px;
+    height: 15px;
     position: relative;
 	 margin-left: 1%;
 }
@@ -119,8 +119,8 @@ header figure{
 
 .switch__button::before {
     content: "";
-    width: 28px;
-    height: 28px;
+    width: 23px;
+    height: 23px;
     position: absolute;
     left: -5px;
     border-radius: 50%;
@@ -151,3 +151,18 @@ header figure{
 .switch__input__checkbox:checked+.switch__button::before {
     transform: translateX(26px);
 }
+
+
+
+
+
+@media (max-width: 1023px){
+	.theme__switch{
+	margin-bottom: 10%;
+	}
+}
+
+
+
+
+
