@@ -51,11 +51,10 @@
 	background-color: #FF914D;
 	border: none;
 	border-radius: 15px;
-	width: 160px;
-	font-size: 25px;
+	padding: 2%;
+	font-size: 6vw;
 	margin: auto;
 	margin-top: 35px;
-	max-width: 100%;
 	color: white;
 }
 
@@ -108,7 +107,7 @@
 	background-color: #FF914D;
 	border: none;
 	border-radius: 15px;
-	padding: 2%;
+	padding: 5%;
 	font-size: 6vw;
 	margin: auto;
 	margin-top: 35px;
