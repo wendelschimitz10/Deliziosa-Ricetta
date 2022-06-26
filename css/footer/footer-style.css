@@ -2,7 +2,17 @@
 .footer{
 	background-color: var(--footer-color);
 }
-}
+
+.footer__block div{
+	margin-top: 5%!important;
+	}
+
+.footer__block{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	}
 
 .footer__h2{
 	font-size: 28px;
@@ -22,6 +32,21 @@
 	color: var(--color-text);
 }
 
+#footer-icons .footer-icons__option i{
+	font-size: 3.5vw!important;
+	}
+	
+#footer-icons .footer-icons__option{
+	margin: 5%!important;
+	padding: 0!important;
+	}
+
+.footer-menu .footer-menu__option{
+	padding: 0!important;
+	margin: 5%!important;
+	margin-top: 0!important;
+	}
+
 .fa--custom{
 	font-size: 30px;
 	text-decoration: none;
@@ -33,3 +58,64 @@
 .fa--custom--color{
 	color: var(--main-color-orange);
 }
+
+
+
+
+
+@media (max-width: 1023px){
+.fa--custom{
+	font-size: 10vw!important;
+	padding-right: 2%;
+	margin-left: 2%;
+}
+
+.footer__h2{
+	font-size: 5vw;
+}
+
+.footer__text{
+	font-size: 4vw;
+}
+
+.footer__p{
+	padding-bottom: 2%;
+	font-size: 3.5vw;
+}
+
+#footer-icons, .footer-menu{
+	flex-direction: column!important;
+	align-items: center;
+	text-align: center!important;
+}
+
+#footer-icons .footer-icons__option{
+	margin: 25%!important;
+	
+	}
+
+#footer-icons .footer-icons__option i{
+	font-size: 10vw!important;
+	}
+	
+.footer-menu .footer-menu__option{
+	padding: 0!important;
+	margin: 5%!important;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

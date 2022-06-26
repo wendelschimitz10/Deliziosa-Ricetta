@@ -32,53 +32,51 @@
 
 <body id="body__style">
 	<header>
-		<section>
-			<nav class="navbar navbar-expand-lg navbar-light">
-				<div class="container-fluid">
-					<!-- esse butto são os 3 tracinhos da responsividade (opções) -->
-					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					</button>
-					<!-- -->
+        <section>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <!-- esse butto são os 3 tracinhos da responsividade (opções) -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- -->
 
-					<div class="collapse navbar-collapse" id="navbarSupportedContent">
-						<ul class="navbar-nav me-auto mb-2 mb-lg-0 ps-3">
-							<li class="nav-item">
-								<a id="nav-link-text" class="nav-link"  href="../../index.html">Inicio <i class="fas fa-home"></i></a>
-							</li>
-							<li class="nav-item">
-								<a id="nav-link-text" class="nav-link" href="receitassalgadas.html">Receitas salgadas</a>
-							</li>
-							<li class="nav-item">
-								<a id="nav-link-text" class="nav-link active" aria-current="page" href="#">Receitas doces</a>
-							</li>
-							<li class="nav-item">
-								<a id="nav-link-text" class="nav-link" href="#">Bebidas</a>
-							</li>
-							<li>
-								<a id="nav-link-text" class="nav-link" href="../../screens/register.html">Criar conta</a>
-							</li>
-						</ul>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ps-3">
+                            <li class="nav-item">
+                                <a id="nav-link-text" class="nav-link active" aria-current="page" href="../../index.html">Inicio <i class="fas fa-home"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="nav-link-text" class="nav-link" href="receitassalgadas.html">Receitas salgadas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="nav-link-text" class="nav-link" href="receitasdoces.html">Receitas doces</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="nav-link-text" class="nav-link" href="#">Bebidas</a>
+                            </li>
+                            <li>
+                                <a id="nav-link-text" class="nav-link" href="../register.html">Criar conta</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
 
-						<form class="d-flex">
-							<input id="form-control-id" class="form-control me-2" type="search" placeholder="O que está procurando?" aria-label="Search">
-							<button class="btn btn__search" type="submit"><i class="fas fa-search"></i></button>
-						</form>
+			<div class="dark__theme">
+       	   <label class="theme__switch" for="switch">	
+        		  <span class="theme__switch__text"> Claro / Escuro</span>
+          			<div class="switch__wrapper">
+          				<input class="switch__input__checkbox" id="switch" type="checkbox" name="theme">
+          	 		   <span class="switch__button"></span>
+        		       </div>
+      	    	</label>
+          </div>
 
-
-						<div class="dark__theme">
-							<label class="theme__switch" for="switch">	
-								<span class="theme__switch__text"> Claro / Escuro</span>
-								<div class="switch__wrapper">
-									<input class="switch__input__checkbox" id="switch" type="checkbox" name="theme">
-									<span class="switch__button"></span>
-								</div>
-							</label>
-
-						</div>
-					</div>
-				</div>
-			</nav>
+			<form class="d-flex" id="search-bar">
+             <input id="form-control-id" class="form-control me-2" type="search" placeholder="O que está procurando?" aria-label="Search">
+          	<button class="btn btn__search" type="submit"><i class="fas fa-search"></i></button>
+          </form>
 
 			<figure>
 				<img class="figure__img__logo" src="../../assets/img/logo.png">
@@ -97,9 +95,11 @@
 								<h5 class="casousel__caption__h5">Receitas doces</h5>
 								<p class="carousel__caption__p">Um bom doce é ideal para melhorar qualquer situação. Seja em confraternizações de trabalho, reuniões de amigos e familiares ou simplesmente para ficar em casa e adoçar seu dia.</p>
 							</div>
-							<a href="https://www.instagram.com/wendel.mkt/"><i class="fab fa-instagram fa--custom"></i></a>
-							<a href="https://github.com/wendelschimitz10/"><i class="fab fa-github fa--custom"></i></a>
-							<a href="https://www.facebook.com/wendel.shimitz.3/"><i class="fab fa-facebook-square fa--custom"></i></a>
+							<div class="carousel__icons">
+                           <a href="https://www.instagram.com/wendel.mkt/"><i class="fab fa-instagram fa--custom"></i></a>
+                           <a href="https://github.com/wendelschimitz10/"><i class="fab fa-github fa--custom"></i></a>
+                         	<a href="https://www.facebook.com/wendel.shimitz.3/"><i class="fab fa-facebook-square fa--custom"></i></a>
+                       	</div>
 						</div>
 					</div>
 					<div class="carousel-item" data-bs-interval="3500">
@@ -109,10 +109,11 @@
 								<h5 class="casousel__caption__h5">Receitas doces</h5>
 								<p class="carousel__caption__p">Qualquer pessoa, mesmo sem experiência na cozinha, pode preparar estas receitas que funcionam também como sobremesas fáceis</p>
 							</div>
-							<a href="https://www.instagram.com/wendel.mkt/"><i class="fab fa-instagram fa--custom"></i></a>
-							<a href="https://github.com/wendelschimitz10/"><i class="fab fa-github fa--custom"></i></a>
-							<a href="https://www.facebook.com/wendel.shimitz.3/"><i class="fab fa-facebook-square fa--custom"></i>
-							</a>
+							<div class="carousel__icons">
+                           <a href="https://www.instagram.com/wendel.mkt/"><i class="fab fa-instagram fa--custom"></i></a>
+                           <a href="https://github.com/wendelschimitz10/"><i class="fab fa-github fa--custom"></i></a>
+                         	<a href="https://www.facebook.com/wendel.shimitz.3/"><i class="fab fa-facebook-square fa--custom"></i></a>
+                       	</div>
 						</div>
 					</div>
 				</div>
@@ -128,7 +129,7 @@
 		</section>
 
 		<section class="ricettas_list">
-			<div class="d-flex justify-content-evenly">
+			<div class="d-flex justify-content-evenly cards-container">
 				<div class="card card_style">
 					<a href="#" class="highlights__link">
 						<img src="../../assets/img/zeppole.jpg" class="card-img-top" alt="Receita de zeppole">
@@ -159,9 +160,7 @@
 						</div>
 					</a>
 				</div>
-			</div>
 
-			<div class="d-flex justify-content-evenly">
 				<div class="card">
 					<a href="#" class="highlights__link">
 						<img src="../../assets/img/cartellate.jpg" class="card-img-top" alt="Receita de Cartellate">
@@ -173,7 +172,7 @@
 					</a>
 				</div>
 
-				<div class="card"1>
+				<div class="card">
 					<a href="#" class="highlights__link">
 						<img src="../../assets/img/bolocacarola.jpg" class="card-img-top" alt="...">
 						<div class="card-body">
@@ -182,7 +181,7 @@
 						</div>
 					</a>
 				</div>
-			</div>
+		  </div>
 		</section>
 
 		
@@ -190,35 +189,35 @@
 
 
 	<footer class="footer">
-		
-		<!-- div-flex dos títulos do footer -->
-		<div class="d-flex flex-row bd-highlight mb-3 mt-5 justify-content-center">
-			<div class="p-2 bd-highlight">
-				<h2 class="ms-5 me-5 footer__h2">Redes Sociais</h2>
 
-				<!-- div-flex dos icones das midias sociais-->
-				<div class="d-flex flex-row bd-highlight mt-5 d-flex justify-content-center">
-					<div class="p-2 bd-highlight"><a href="https://www.instagram.com/wendel.mkt/"><i class="fab fa-instagram fa--custom fa--custom--color"></i></a></div>
-					<div class="p-2 bd-highlight"><a href="https://github.com/wendelschimitz10/"><i class="fab fa-github fa--custom fa--custom--color"></i></a></div>
-					<div class="p-2 bd-highlight"><a href="https://www.facebook.com/wendel.shimitz.3/"><i class="fab fa-facebook-square fa--custom fa--custom--color"></i></a></div>
-				</div>
-				<!-- -->
-			</div>
-			
-			<div class="p-2 bd-highlight">
-				<h2 class="ms-5 me-5 footer__h2">Informações</h2>
-				
-				<div class="d-flex flex-fill bd-highlight mt-5 mb-5 d-flex">
-					<div class="p-2 bd-highlight"><a href="#" class="footer__text">Inicio</a></div>
-					<div class="p-2 bd-highlight"><a href="#" class="footer__text">Sobre nós</a></div>
-					<div class="p-2 bd-highlight"><a href="" class="footer__text">Política de Privacidade</a></div>
-					<div class="p-2 bd-highlight"><a href="" class="footer__text">Termos de uso</a></div>
-				</div>
+        <!-- div-flex dos títulos do footer -->
+        <div class="d-flex flex-row bd-highlight mb-3 mt-5 justify-content-center footer__container" id="footer__container">
+            <div class="p-2 bd-highlight footer__block">
+                <h2 class="ms-5 me-5 footer__h2">Redes Sociais</h2>
 
-			</div>	
-		</div>		
-		<p class="footer__p">&copy;2022 - Deliziosa Ricetta - Todos os direitos reservados</p>
-	</footer>
+                <!-- div-flex dos icones das midias sociais-->
+                <div class="d-flex flex-row bd-highlight mt-5 d-flex justify-content-center" id="footer-icons">
+                    <div class="p-2 bd-highlight footer-icons__option"><a href="https://www.instagram.com/wendel.mkt/"><i class="fab fa-instagram fa--custom fa--custom--color"></i></a></div>
+                    <div class="p-2 bd-highlight footer-icons__option"><a href="https://github.com/wendelschimitz10/"><i class="fab fa-github fa--custom fa--custom--color"></i></a></div>
+                    <div class="p-2 bd-highlight footer-icons__option"><a href="https://www.facebook.com/wendel.shimitz.3/"><i class="fab fa-facebook-square fa--custom fa--custom--color"></i></a></div>
+                </div>
+                <!-- -->
+            </div>
+
+            <div class="p-2 bd-highlight footer__block">
+                <h2 class="ms-5 me-5 footer__h2">Informações</h2>
+
+                <div class="d-flex flex-fill bd-highlight mt-5 mb-5 footer-menu">
+                    <div class="p-2 bd-highlight footer-menu__option"><a href="#" class="footer__text">Início</a></div>
+                    <div class="p-2 bd-highlight footer-menu__option"><a href="#" class="footer__text">Sobre nós</a></div>
+                    <div class="p-2 bd-highlight footer-menu__option"><a href="" class="footer__text">Política de Privacidade</a></div>
+                    <div class="p-2 bd-highlight footer-menu__option"><a href="" class="footer__text">Termos de uso</a></div>
+                </div>
+
+            </div>  
+        </div>      
+        <p class="footer__p">&copy;2022 - Deliziosa Ricetta - Todos os direitos reservados</p>
+    </footer>
 
 
 	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>

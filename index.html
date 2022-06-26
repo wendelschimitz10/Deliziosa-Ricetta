@@ -58,25 +58,25 @@
                                 <a id="nav-link-text" class="nav-link" href="screens/register.html">Criar conta</a>
                             </li>
                         </ul>
-
-                        <form class="d-flex">
-                            <input id="form-control-id" class="form-control me-2" type="search" placeholder="O que está procurando?" aria-label="Search">
-                            <button class="btn btn__search" type="submit"><i class="fas fa-search"></i></button>
-                        </form>
-
-                        <div class="dark__theme">
-                            <label class="theme__switch" for="switch">	
-                                <span class="theme__switch__text"> Claro / Escuro</span>
-                                <div class="switch__wrapper">
-                                    <input class="switch__input__checkbox" id="switch" type="checkbox" name="theme">
-                                    <span class="switch__button"></span>
-                                </div>
-                            </label>
-
-                        </div>
                     </div>
                 </div>
             </nav>
+
+			<div class="dark__theme">
+       	   <label class="theme__switch" for="switch">	
+        		  <span class="theme__switch__text"> Claro / Escuro</span>
+          			<div class="switch__wrapper">
+          				<input class="switch__input__checkbox" id="switch" type="checkbox" name="theme">
+          	 		   <span class="switch__button"></span>
+        		       </div>
+      	    	</label>
+          </div>
+
+			<form class="d-flex" id="search-bar">
+             <input id="form-control-id" class="form-control me-2" type="search" placeholder="O que está procurando?" aria-label="Search">
+          	<button class="btn btn__search" type="submit"><i class="fas fa-search"></i></button>
+          </form>
+				
             <figure>
                 <img class="figure__img__logo" src="assets/img/logo.png">
             </figure>
@@ -96,10 +96,12 @@
                                 <p class="carousel__caption__p">Famosa em todo mundo, difícil alguém que resista às irresistíveis massas entre outras opções típicas da Itália. A massa e a pizza são os mais famosos, mas há outras especialidades tão saborosas quanto. Orégano, manjericão,
                                 salsa, alecrim e sálvia são os principais temperos dos pratos.</p>
                             </div>
-                            <a href="https://www.instagram.com/wendel.mkt/"><i class="fab fa-instagram fa--custom"></i></a>
-                            <a href="https://github.com/wendelschimitz10/"><i class="fab fa-github fa--custom"></i></a>
-                            <a href="https://www.facebook.com/wendel.shimitz.3/"><i class="fab fa-facebook-square fa--custom"></i></a>
-                        </div>
+								  <div class="carousel__icons">
+                            		<a href="https://www.instagram.com/wendel.mkt/"><i class="fab fa-instagram fa--custom"></i></a>
+                           		<a href="https://github.com/wendelschimitz10/"><i class="fab fa-github fa--custom"></i></a>
+                         		   <a href="https://www.facebook.com/wendel.shimitz.3/"><i class="fab fa-facebook-square fa--custom"></i></a>
+                       		  </div>
+								 </div>
                     </div>
                     <div class="carousel-item" data-bs-interval="3500">
                         <img src="assets/img/bannerdoce.png" class="d-block w-100" alt="...">
@@ -109,11 +111,12 @@
                                 <p class="carousel__caption__p">A culinária da Itália faz sucesso ao redor do mundo todo e isso não é à toa. Além de deliciosas pizzas, lasanhas e macarrões, é bem fácil encontrar outras boas receitas de comidas italianas. Você pode escolher desde o petisco,
                                 entrada, prato principal e até mesmo sobremesa. As opções são para todos os gostos.</p>
                             </div>
-                            <a href="https://www.instagram.com/wendel.mkt/"><i class="fab fa-instagram fa--custom"></i></a>
-                            <a href="https://github.com/wendelschimitz10/"><i class="fab fa-github fa--custom"></i></a>
-                            <a href="https://www.facebook.com/wendel.shimitz.3/"><i class="fab fa-facebook-square fa--custom"></i>
-                            </a>
-                        </div>
+								 <div class="carousel__icons">
+                          		  <a href="https://www.instagram.com/wendel.mkt/"><i class="fab fa-instagram fa--custom"></i></a>
+                       		     <a href="https://github.com/wendelschimitz10/"><i class="fab fa-github fa--custom"></i></a>
+                            	  <a href="https://www.facebook.com/wendel.shimitz.3/"><i class="fab fa-facebook-square fa--custom"></i></a>
+                        	 </div>
+						    </div>
                     </div>
                     <div class="carousel-item" data-bs-interval="3500">
                         <img src="assets/img/banner2.png" class="d-block w-100" alt="...">
@@ -122,9 +125,11 @@
                                 <h5 class="casousel__caption__h5">Confira nossas receitas!!</h5>
                                 <p class="carousel__caption__p">Novas receitas são adicionadas de segunda-feira a sexta-feira.</p>
                             </div>
-                            <a href="https://www.instagram.com/wendel.mkt/"><i class="fab fa-instagram fa--custom"></i></a>
-                            <a href="https://github.com/wendelschimitz10/"><i class="fab fa-github fa--custom"></i></a>
-                            <a href="https://www.facebook.com/wendel.shimitz.3/"><i class="fab fa-facebook-square fa--custom"></i></a>
+                            <div class="carousel__icons">
+                          		  <a href="https://www.instagram.com/wendel.mkt/"><i class="fab fa-instagram fa--custom"></i></a>
+                       		     <a href="https://github.com/wendelschimitz10/"><i class="fab fa-github fa--custom"></i></a>
+                            	  <a href="https://www.facebook.com/wendel.shimitz.3/"><i class="fab fa-facebook-square fa--custom"></i></a>
+                        	 </div>
                         </div>
                     </div>
                 </div>
@@ -143,7 +148,7 @@
 
         <section class="card_highlights">
 
-            <div class="d-flex justify-content-evenly">
+            <div class="d-flex justify-content-evenly cards-container">
                 <div class="card card_style ">
                     <a href="#" class="highlights__link">
                         <img src="assets/img/lasanha4queijos.jpg" class="card-img-top" alt="Receita de lasanha quatro queijos">
@@ -174,8 +179,7 @@
                         </div>
                     </a>
                 </div>
-            </div>
-            <div class="d-flex justify-content-evenly">
+            
                 <div class="card">
                     <a href="#" class="highlights__link">
                         <img src="assets/img/pizzacapresebraz.jpg" class="card-img-top" alt="...">
@@ -208,8 +212,7 @@
                         </div>
                     </a>
                 </div>
-            </div>
-            <div class="d-flex justify-content-evenly">
+            
                 <div class="card">
                     <a href="#" class="highlights__link">
                         <img src="assets/img/macarrao.jpg" class="card-img-top" alt="...">
@@ -243,8 +246,9 @@
                 </div>
             </div>
         </section>
+    </main>
 
-        <section class="newsletter__card d-flex justify-content-evenly">
+	 <section class="newsletter__card d-flex justify-content-evenly">
             <div>
                 <h1 class="newsletter__h1">Assine nossa Newsletter </h1>
                 <p class="newsletter__p">Receba diariamente as melhores receitas do nosso cardápio em seu e-mail</p>
@@ -262,33 +266,30 @@
             </div>
         </section>
 
-        
-    </main>
-
     <footer class="footer">
 
         <!-- div-flex dos títulos do footer -->
-        <div class="d-flex flex-row bd-highlight mb-3 mt-5 justify-content-center">
-            <div class="p-2 bd-highlight">
+        <div class="d-flex flex-row bd-highlight mb-3 mt-5 justify-content-center footer__container" id="footer__container">
+            <div class="p-2 bd-highlight footer__block">
                 <h2 class="ms-5 me-5 footer__h2">Redes Sociais</h2>
 
                 <!-- div-flex dos icones das midias sociais-->
-                <div class="d-flex flex-row bd-highlight mt-5 d-flex justify-content-center">
-                    <div class="p-2 bd-highlight"><a href="https://www.instagram.com/wendel.mkt/"><i class="fab fa-instagram fa--custom fa--custom--color"></i></a></div>
-                    <div class="p-2 bd-highlight"><a href="https://github.com/wendelschimitz10/"><i class="fab fa-github fa--custom fa--custom--color"></i></a></div>
-                    <div class="p-2 bd-highlight"><a href="https://www.facebook.com/wendel.shimitz.3/"><i class="fab fa-facebook-square fa--custom fa--custom--color"></i></a></div>
+                <div class="d-flex flex-row bd-highlight mt-5 d-flex justify-content-center" id="footer-icons">
+                    <div class="p-2 bd-highlight footer-icons__option"><a href="https://www.instagram.com/wendel.mkt/"><i class="fab fa-instagram fa--custom fa--custom--color"></i></a></div>
+                    <div class="p-2 bd-highlight footer-icons__option"><a href="https://github.com/wendelschimitz10/"><i class="fab fa-github fa--custom fa--custom--color"></i></a></div>
+                    <div class="p-2 bd-highlight footer-icons__option"><a href="https://www.facebook.com/wendel.shimitz.3/"><i class="fab fa-facebook-square fa--custom fa--custom--color"></i></a></div>
                 </div>
                 <!-- -->
             </div>
 
-            <div class="p-2 bd-highlight">
+            <div class="p-2 bd-highlight footer__block">
                 <h2 class="ms-5 me-5 footer__h2">Informações</h2>
 
-                <div class="d-flex flex-fill bd-highlight mt-5 mb-5 d-flex">
-                    <div class="p-2 bd-highlight"><a href="#" class="footer__text">Inicio</a></div>
-                    <div class="p-2 bd-highlight"><a href="#" class="footer__text">Sobre nós</a></div>
-                    <div class="p-2 bd-highlight"><a href="" class="footer__text">Política de Privacidade</a></div>
-                    <div class="p-2 bd-highlight"><a href="" class="footer__text">Termos de uso</a></div>
+                <div class="d-flex flex-fill bd-highlight mt-5 mb-5 footer-menu">
+                    <div class="p-2 bd-highlight footer-menu__option"><a href="#" class="footer__text">Início</a></div>
+                    <div class="p-2 bd-highlight footer-menu__option"><a href="#" class="footer__text">Sobre nós</a></div>
+                    <div class="p-2 bd-highlight footer-menu__option"><a href="" class="footer__text">Política de Privacidade</a></div>
+                    <div class="p-2 bd-highlight footer-menu__option"><a href="" class="footer__text">Termos de uso</a></div>
                 </div>
 
             </div>  

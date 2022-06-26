@@ -1,16 +1,17 @@
+
 .register{
 	width: 35%;
 	padding: 30px;
 	border: 5px solid #FF914D;
 	border-radius: 10px;
-	margin-left: 32%;
-	margin-top: 15%;
+	margin: auto;
+	margin-top: 5%;
+	margin-bottom: 20%;
 }
 
 .register__h2{
 	border-radius: 10px;
 	padding: 12px 20px;
-	margin-top: -33%;
 	margin-bottom: 7%;
 	font-weight: bold;
 	font-size: 35px;
@@ -19,6 +20,14 @@
 	background-color: #FF914D;
 	color: white;
 }
+
+.register form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	}
+
 
 .legend__title{
 	font-weight: bold;
@@ -42,10 +51,71 @@
 	background-color: #FF914D;
 	border: none;
 	border-radius: 15px;
-	width: 160px;
-	font-size: 25px;
+	padding: 2% 5%;
+	font-size: 30px;
+	margin: auto;
 	margin-top: 35px;
-	max-width: 100%;
 	color: white;
-	margin-left: 100px;
 }
+
+
+
+
+
+@media (max-width: 1023px){
+	.register{
+	width: 80%;
+	padding: 30px;
+	border: 5px solid #FF914D;
+	border-radius: 10px;
+	margin-top: 15%;
+	margin-bottom: 40%;
+}
+
+.register__h2{
+	border-radius: 10px;
+	padding: 12px 20px;
+	margin-bottom: 7%;
+	font-weight: bold;
+	font-size: 7vw;
+	text-align: center!important;
+	border: 5px solid #FF914D;
+	background-color: #FF914D;
+	color: white;
+}
+
+.legend__title{
+	font-weight: bold;
+	margin-top: 5%;
+	text-align: center;
+	font-size: 6vw;
+}
+
+.input__user{
+	color: var(--color-text);
+	background: none;
+	border: none;
+	outline: none;
+	margin-bottom: 20px;
+	border-bottom: 1px solid black;
+	font-size: 5vw;
+	width: 100%;
+	letter-spacing: 1.4px;
+}
+
+.register__button{
+	background-color: #FF914D;
+	border: none;
+	border-radius: 15px;
+	font-size: 6vw;
+	margin: auto;
+	margin-top: 35px;
+	color: white;
+}
+}
+
+
+
+
+
+
